@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'GolosText';
+    src: url('../fonts/GolosText-Regular.woff2') format('woff2'),
+        url('../fonts/GolosText-Regular.woff') format('woff'),
+        url('../fonts/GolosText-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GolosText';
+    src: url('../fonts/GolosText-Medium.woff2') format('woff2'),
+        url('../fonts/GolosText-Medium.woff') format('woff'),
+        url('../fonts/GolosText-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GolosText';
+    src: url('../fonts/GolosText-SemiBold.woff2') format('woff2'),
+        url('../fonts/GolosText-SemiBold.woff') format('woff'),
+        url('../fonts/GolosText-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GolosText';
+    src: url('../fonts/GolosText-Bold.woff2') format('woff2'),
+        url('../fonts/GolosText-Bold.woff') format('woff'),
+        url('../fonts/GolosText-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GolosText';
+    src: url('../fonts/GolosText-ExtraBold.woff2') format('woff2'),
+        url('../fonts/GolosText-ExtraBold.woff') format('woff'),
+        url('../fonts/GolosText-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GolosText';
+    src: url('../fonts/GolosText-Black.woff2') format('woff2'),
+        url('../fonts/GolosText-Black.woff') format('woff'),
+        url('../fonts/GolosText-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --font-primary: 'GolosText', sans-serif;
+    --color-body: #151515;
+    --color-white: #ffffff;
+    --color-sky: #A8DFFF;
+
+    --linear-header: linear-gradient(180deg, rgba(13,34,68,1) 0%, rgba(13,34,68,0.3) 50%, rgba(0,212,255,0) 100%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: var(--color-body);
+    font-family: var(--font-primary);
+    color: var(--color-white);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 110px;
+}
