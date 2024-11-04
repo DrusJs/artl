@@ -331,8 +331,9 @@ h1.title {
     background-size: 100% 100%;
     text-decoration: none;
     font-size: 22px;
-    background-color: var(--color-transp);
+    background-color: var(--color-transp);    
     backdrop-filter: blur(10px);
+    --webkit-backdrop-filter: blur(10px);
     border-radius: 16px;
 }
 
@@ -351,6 +352,7 @@ h1.title {
     text-decoration: none;
     background-color: var(--color-transp);
     backdrop-filter: blur(10px);
+    --webkit-backdrop-filter: blur(10px);
     border-radius: 8px;
     margin-left: -30px;
     transition: text-shadow 200ms ease-in-out, font-weight 200ms ease-in-out;
