@@ -84,6 +84,7 @@ body {
     /* remove */
     background-image: url(../images/bg-group.png);
     background-position: top center;
+    background-repeat: no-repeat;
     background-size: 100%;
 }
 
@@ -197,6 +198,10 @@ h1.title {
     animation: marquee-anim 6s linear infinite;
 }
 
+.marquee-container .marquee-logo {
+    width: 104px;
+}
+
 .marquee-text {
     color: transparent;
     -webkit-text-stroke: 0.5px var(--color-orange);
@@ -218,7 +223,8 @@ h1.title {
     min-height: 1400px;
     background-image: url(../images/bg-serv.png);
     background-position: center center;
-    background-size: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     padding: 70px 0 120px;
 }
 
@@ -351,4 +357,11 @@ h1.title {
 .grid-item-link:hover .grid-item-link-arrows .arrow-hover {
     opacity: 0.5;
     transform: translateX(-2px);
+}
+
+
+@media (max-width: 1300px) {
+    .container {
+        padding: 0 40px;
+    }
 }
