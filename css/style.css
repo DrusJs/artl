@@ -82,7 +82,7 @@ body {
     
 
     /* remove */
-    background-image: url(../images/bg-group.png);
+    background-image: url(../images/bg-group.webp);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -221,7 +221,7 @@ h1.title {
 
 .services-info {
     min-height: 1400px;
-    background-image: url(../images/bg-serv.png);
+    background-image: url(../images/bg-serv.webp);
     background-position: center center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -257,7 +257,7 @@ h1.title {
 }
 
 .services-grid-item:nth-child(1) .grid-item-header {
-    background-image: url(../images/srv-bg-1.png);
+    background-image: url(../images/srv-bg-1.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
@@ -266,7 +266,7 @@ h1.title {
 }
 
 .services-grid-item:nth-child(2) .grid-item-header {
-    background-image: url(../images/srv-bg-2.png);
+    background-image: url(../images/srv-bg-2.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
@@ -275,7 +275,7 @@ h1.title {
 }
 
 .services-grid-item:nth-child(3) .grid-item-header {
-    background-image: url(../images/srv-bg-3.png);
+    background-image: url(../images/srv-bg-3.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
@@ -284,7 +284,7 @@ h1.title {
 }
 
 .services-grid-item:nth-child(4) .grid-item-header {
-    background-image: url(../images/srv-bg-4.png);
+    background-image: url(../images/srv-bg-4.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
@@ -293,7 +293,7 @@ h1.title {
 }
 
 .services-grid-item:nth-child(5) .grid-item-header {
-    background-image: url(../images/srv-bg-5.png);
+    background-image: url(../images/srv-bg-5.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
@@ -307,7 +307,7 @@ h1.title {
     display: flex;
     align-items: center;
     gap: 26px;
-    background-image: url(../images/service-item-main.png);
+    background-image: url(../images/service-item-main.webp);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 100% 100%;
@@ -320,7 +320,7 @@ h1.title {
 .grid-item-link-text {
     width: 264px;
     height: 53px;
-    background-image: url(../images/service-item-inner.png);
+    background-image: url(../images/service-item-inner.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
