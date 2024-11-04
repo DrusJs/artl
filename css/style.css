@@ -292,6 +292,7 @@ h1.title {
     height: 260px;
 }
 
+
 .services-grid-item:nth-child(3) .grid-item-header {
     background-image: url(../images/srv-bg-3.webp);
     background-repeat: no-repeat;
@@ -332,14 +333,14 @@ h1.title {
     text-decoration: none;
     font-size: 22px;
     background-color: var(--color-transp);    
-    backdrop-filter: blur(60px);
+    backdrop-filter: blur(20px);
     border-radius: 16px;
 }
 
 .grid-item-link-text {
     width: 350px;
     height: 70px;
-    background-image: url(../images/service-item-inner.webp);
+    background-image: url(../images/service-item-inner.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
@@ -353,6 +354,22 @@ h1.title {
     border-radius: 8px;
     margin-left: -30px;
     transition: text-shadow 200ms ease-in-out, font-weight 200ms ease-in-out;
+}
+
+.services-grid-item:nth-child(2) .grid-item-link-text {
+    background-image: url(../images/service-item-inner2.png);
+}
+
+.services-grid-item:nth-child(3) .grid-item-link-text {
+    background-image: url(../images/service-item-inner4.png);
+}
+
+.services-grid-item:nth-child(4) .grid-item-link-text {
+    background-image: url(../images/service-item-inner4.png);
+}
+
+.services-grid-item:nth-child(5) .grid-item-link-text {
+    background-image: url(../images/service-item-inner5.png);
 }
 
 .grid-item-link-arrows {
@@ -523,6 +540,24 @@ h1.title {
         right: -250px;
         max-width: 500px;
     }
+    .services-grid-item:nth-child(1) .grid-item-link-text {
+        background-image: url(../images/service-item-inner2.png);
+    }
+    .services-grid-item:nth-child(2) .grid-item-link-text {
+        background-image: url(../images/service-item-inner2.png);
+    }
+    
+    .services-grid-item:nth-child(3) .grid-item-link-text {
+        background-image: url(../images/service-item-inner.png);
+    }
+    
+    .services-grid-item:nth-child(4) .grid-item-link-text {
+        background-image: url(../images/service-item-inner4.png);
+    }
+    
+    .services-grid-item:nth-child(5) .grid-item-link-text {
+        background-image: url(../images/service-item-inner4.png);
+    }
 }
 
 @media (max-width: 768px) {
@@ -555,6 +590,9 @@ h1.title {
     }
     .services-main-inner {
         padding-bottom: 70vw;
+    }
+    .services-grid-item:nth-child(2) .grid-item-link-text {
+        background-image: url(../images/service-item-inner.png);
     }
     .services-grid {
         grid-template-columns: repeat(2, 1fr);
