@@ -560,13 +560,13 @@ h1.title {
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
         max-width: 100%;
-        padding-bottom: 300px;
+        padding-bottom: 240px;
     }
 
     .services-absolute-bg {
         bottom: -150px;
         right: -60px;
-        max-width: 450px;
+        max-width: 400px;
       }
 
     .services-main-inner {
