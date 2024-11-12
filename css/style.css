@@ -89,6 +89,11 @@ body {
     background-size: 100%;
 }
 
+body.bg-single {
+    background-image: url(../images/serv-single-body.webp);    
+    background-position: top 1000px center;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
@@ -117,9 +122,6 @@ input[type="number"] {
     -moz-appearance: textfield; 
 }
 
-body {
-    font-family: var(--font-primary);
-}
 
 button {
     border: none;
@@ -525,6 +527,101 @@ h1.title {
 .services-single-road .chain {
     margin-top: 16px;
     mix-blend-mode: lighten;
+}
+
+.services-single-faq {
+    position: relative;
+}
+
+.faq-tabs {    
+    width: 100%;
+    min-height: 521px;
+    padding: 170px 0 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.faq-tab-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-tab-header {
+    padding: 18px 86px 20px 60px;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4.79778px 12px, rgba(255, 255, 255, 0.02) 0px 1px 4.79778px inset;
+    backdrop-filter: blur(41.9806px);
+    border-width: 1px 1px medium;
+    border-style: solid solid none;
+    border-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) currentcolor;
+    background-size: 100% 8px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    max-width: 792px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    min-height: 110px;
+}
+
+.faq-tab-wrapper.active .faq-tab-header {
+    background-color: rgba(255, 255, 255, 0.18);
+    background-image: linear-gradient(98.51deg, rgb(134, 253, 210) 0%, rgb(244, 233, 135) 33.3%, rgb(248, 102, 117) 66.6%, rgb(173, 105, 240) 100%);
+}
+
+.faq-tab-content {
+    position: absolute;
+    z-index: 2;
+    padding: 18px 86px 20px 60px;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    min-height: 521px;
+    width: 60%;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 30px;
+    right: -100px;
+    padding-right: 100px;
+    top: 100px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-image: url(../images/faq-tab-bg.gif);
+    /* mix-blend-mode: screen; */
+}
+
+.faq-tab-wrapper.active .faq-tab-content {
+    display: flex;
+}
+
+.faq-tab-title {
+    font-size: 32px;
+}
+.faq-tab-list {
+    padding-left: 30px;
+}
+.faq-tab-list li {
+    font-size: 20px;
+}
+.fq-contant-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+.faq-tab-header svg {    
+    filter: drop-shadow(0px 0px 2px #F74E1B);
 }
 
 .consultations-section .container {
