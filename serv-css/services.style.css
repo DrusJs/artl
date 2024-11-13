@@ -1202,6 +1202,10 @@ h1.title {
     background-size: cover;
 }
 
+.road-absolute img:nth-child(2) {
+    display: none;
+}
+
 @media (max-width:1800px) {
     .road-absolute {
         max-width: calc(100% - 60px);
@@ -1305,6 +1309,9 @@ h1.title {
     .consultation-info__item {
         font-size: 12px;
     }
+    .consultation-info__main {
+        height: 100%;
+    }
 }
 
 @media (max-width: 1340px) {
@@ -1384,7 +1391,12 @@ h1.title {
     .absolute-binary img {
         height: 120px;
     }
-
+    .consultations-section .container {
+        gap: 100px;
+    }
+    .services-single-main .main-title {
+        margin-left: 0;
+    }
     .grid-item-link {
         width: 250px;
         height: 72px;
@@ -1445,15 +1457,28 @@ h1.title {
         max-width: 100%;
         width: 100%;
     }
+    .faq-tabs {
+        justify-content: flex-start;
+    }
+    .services-single-faq {
+        padding-top: 60px;
+    }
     .road-absolute {
         max-width: 100%;
-        left: 0;
+        left: 30px;
         top: 20px;
+        width: calc(100% - 60px);
     }
     .road-absolute img {
         width: 90%;
         height: 120px;
         margin: 0 auto;
+    }
+    .road-absolute img:first-child {
+        display: none;
+    }
+    .road-absolute img:nth-child(2) {
+        display: block;
     }
     .services-single-road-item {
         max-width: 360px;
@@ -1463,6 +1488,23 @@ h1.title {
     }
     .linear-rnb-item {
         height: 65px;
+    }
+    .consultation-info__quote {
+        padding: 34px 50px;
+    }
+    .consultation-info__quote h3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .consultation-info__quote svg {
+        width: 21px;
+        height: auto;
+    }
+    .consultation-info__main {
+        padding: 30px 30px;
+    }
+    .consultation-info__wrapper {
+        gap: 12px;
     }
 }
 
@@ -1489,6 +1531,18 @@ h1.title {
     .container {
         padding: 0 24px;
     }
+    .consultation-info__left-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .consultation-info__img,
+    .consultation-info__wrapper:nth-child(4) .consultation-info__img {
+        left: auto;
+    }
+    .consultation-info__wrapper:nth-child(2n+1),
+    .consultation-info__wrapper {
+        flex-direction: column;
+    }
     .services-siphone {
         max-width: 75vw;
         left: 8%;
@@ -1505,6 +1559,10 @@ h1.title {
         gap: 40px;
         max-width: 100%;
         padding-bottom: 240px;
+    }
+
+    .banner-logo.large {
+        max-width: 80vw;
     }
 
     .services-absolute-bg {
@@ -1526,5 +1584,13 @@ h1.title {
 
     .services-sub-text {
         max-width: 65vw;
+    }
+    .banner-section {
+        height: 500px;
+        padding-top: 80px;
+    }
+    .banner-gif,
+    .banner-bg {
+        min-width: 1100px;
     }
 }
