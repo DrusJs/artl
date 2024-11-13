@@ -1,0 +1,67 @@
+@media only screen and (min-width:1399px) and (max-width:1759px) {
+
+
+  .screen_block_wcont { width: 1400px; margin-left: calc(50% - 700px); }
+
+
+  /***** MAIN NUMBERS ****/
+
+  #main_numbers_screen_block .screen_block_wcont { width: 1400px; margin-left: calc(50% - 700px); }
+  #main_numbers_screen_block_cont_col1 { width: 260px; }
+  #main_numbers_screen_block_cont_col2 { width: 280px; }
+  #main_numbers_screen_block_cont_col3 { width: 310px; }
+  #main_numbers_screen_block_cont_col4 { width: 260px; }
+
+  
+  #main_services_screen_block_list_cont { width: 2000px; }
+
+  /***** MAIN METHODS ****/
+
+  #main_methods_screen_block_container_cont { width: 48.6%; margin-left: calc(69% - 5.6% - 870px); }
+
+  
+  /***** MAIN WHY WE ****/
+
+  .main_whyus_screen_block_list_container_cont_item { width: 25%; }
+  .main_whyus_screen_block_list_container_cont_item_header { width: 200px; }
+  #main_whyus_screen_block_list_container_cont_item_1 { margin-left: 0; }
+  #main_whyus_screen_block_list_container_cont_item_5 { margin-left: 0; }
+
+
+  /***** MAIN DIFF ****/
+
+  #main_differences_screen_block_table_caption_col1 { margin-left: calc(50% + 218px - 36px - 690px); }
+  #main_differences_screen_block_table_sepa { left: calc(50% + 218px - 2px); }
+
+
+  /***** MAIN STEPS ****/
+
+  .main_steps_screen_block_list_container_cont_item { width: calc(50% - 100px); margin-left: 0; padding-left: 60px; }
+  #main_steps_screen_block_list_container_cont_item_2, #main_steps_screen_block_list_container_cont_item_4, #main_steps_screen_block_list_container_cont_item_6 { margin-left: 40px; }
+  
+  /***** MAIN HOW WE DO ****/
+
+  .main_howwedo_screen_block_list_container_cont_item_txt { width: 600px; }
+
+
+
+
+
+  /***** MAIN reviews ****/
+
+  #main_reviews_screen_block_list_img_container { width: 372px; margin-left: 0; margin-right: 72px; }
+  #main_reviews_screen_block_list_img_container_cont { width: 372px; text-align: center; position: relative; }
+  .main_reviews_screen_block_list_img_container_cont_item { width: auto; max-width: 100%; margin-right: 0; height: auto; max-height: 100%; }
+
+
+
+
+    /*** IN ****/
+
+
+
+
+  /***** FOOTER *****/
+
+
+}

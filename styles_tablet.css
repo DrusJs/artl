@@ -1,0 +1,266 @@
+@media only screen  and (min-width:768px)  and (max-width:1079px) {
+
+
+
+  body { min-width:768px; overflow-x: hidden; }
+  
+
+  .screen_block_wcont { width: 700px; margin-left: calc(50% - 350px); }
+
+
+  /***** MENU ****/
+
+  #main_menu_block_cont { width: 700px; height: 458px; top: calc(50% - 230px); left: calc(50% - 350px); background: url('images/main_menu_cont_bg.png') left top no-repeat; background-size: 700px 458px; }
+  #main_menu_block_cont .screen_block_wcont { width: 700px; margin-left: calc(50% - 350px); }
+  #main_menu_block_cont_col1 { width: 250px; }
+  #main_menu_block_cont_col2 { width: 220px; }
+  #main_menu_block_cont_logo { margin-top: 48px; margin-bottom: 40px; }
+  #main_menu_block_cont_col2_header { margin-top: 136px; }
+  #main_menu_block_cont_col3 { margin-top: 136px; }
+
+  #screen_footer_block_info { margin-bottom: 0; }
+
+  /***** MAIN TOP ****/
+
+  #top_screen_logo_block { width: 600px; }
+  #top_screen_contacts_block { width: 280px; display: none; }
+  #top_screen_block_soc { left: calc(50% + 168px); top:-200px; }
+
+
+  #main_first_screen_ini_block { height: 1020px; }
+  #main_first_screen_block { height: 1170px; }
+  #main_first_screen_block_fem { height: 1170px; }
+  #main_first_screen_block_header { margin-top: 490px; font-size: 36px; line-height: 48px; margin-left: 5.6vw; opacity: 0; }
+  #main_first_screen_block_header h1 { font-size: 36px; line-height: 48px; }
+
+  #main_first_screen_block_feat { margin-left: -236px; }
+  #main_first_screen_block_txt { margin-left: 236px; }
+  
+  #main_top_screen_block_soc { display: none; }
+
+
+  /***** MAIN NUMBERS ****/
+
+  #main_numbers_screen_block h2 { width: 600px; margin-left: calc(50% - 350px); text-align: left; margin-bottom: 72px; }
+  #main_numbers_screen_block_lines { display: none; }
+  #main_numbers_screen_block .screen_block_wcont { width: 700px; margin-left: calc(50% - 350px); }
+  #main_numbers_screen_block_cont_col1 { width: 260px; margin-right: calc(40% - 260px); margin-bottom: 72px; margin-left: 90px; }
+  #main_numbers_screen_block_cont_col2 { width: 280px; margin-right: calc(40% - 280px); margin-bottom: 72px; }
+  #main_numbers_screen_block_cont_col3 { width: 310px; margin-right: calc(50% - 310px); position: relative; left: 54px; }
+  #main_numbers_screen_block_cont_col4 { width: 260px; margin-right: calc(40% - 260px); }
+  
+  #main_services_screen_block_list_cont { width: 2000px; margin-left: 0; }
+  #main_numbers_screen_block_deco_graph, #main_numbers_screen_block_deco_block .cl0 { display: none; }
+
+
+  /***** MAIN SERVICES ****/
+
+  #main_services_screen_block_list_container { height: 1072px; margin-top: -120px; }
+  #main_services_screen_block h2 { width: 700px; margin-left: 36px; }
+
+  /***** MAIN METHODS ****/
+
+  #main_methods_screen_block h2 { width: 700px; margin-left: 0; text-align: left; }
+  #main_methods_screen_block_container_cont { width: 48.6%; margin-left: calc(69% - 5.6% - 590px); }
+
+  #main_methods_screen_block_container_dots { right: 0; }
+
+  #main_methods_screen_block_container_graph { display: none; }
+  #main_methods_screen_block_container_cont { width: 400px; margin-left: 30px; }
+  #particles-js { top: 0; }
+  #main_geo_screen_block_map { top: 0; }
+
+  /***** MAIN WHY WE ****/
+
+  .main_whyus_screen_block_list_container_cont_item { width: 300px; }
+  .main_whyus_screen_block_list_container_cont_item_header { width: 200px; font-size: 16px; margin-left: 24px; }
+  #main_whyus_screen_block_list_container_cont_item_1 { margin-left: 0; }
+  #main_whyus_screen_block_list_container_cont_item_5 { margin-left: 0; }
+  
+  #main_whyus_screen_block_list_container_cont_item_4 { width: 300px; }
+  #main_whyus_screen_block_list_container_cont_item_8 { width: 300px; }
+
+
+  /***** MAIN DIFF ****/
+
+  #main_differences_screen_block { padding-bottom:540px; }
+  #main_differences_screen_block_header { margin-left: 0; }
+  #main_differences_screen_block_table_caption_col1 { margin-left: calc(50% + 218px - 36px - 690px); width: 550px; font-size: 30px; }
+  #main_differences_screen_block_table_caption_col3 { font-size: 30px; }
+  #main_differences_screen_block_img_txt { width: 591px; top: 900px; left: calc(50% + 170px - 498px); }
+
+  #main_differences_screen_block_table_sepa { left: 586px; }
+  .main_differences_screen_block_table_item_col1 { margin-left: 0; width: 500px; }
+  .main_differences_screen_block_table_item_col2 { width: 100px; left: 500px; }
+  .main_differences_screen_block_table_item_col3 { width: 50px; left: 600px; }
+
+
+
+  /***** MAIN STEPS ****/
+
+  .main_steps_screen_block_list_container_cont_item { width: calc(50% - 100px); margin-left: 0; padding-left: 60px; }
+  #main_steps_screen_block_list_container_cont_item_2, #main_steps_screen_block_list_container_cont_item_4, #main_steps_screen_block_list_container_cont_item_6 { margin-left: 40px; }
+  
+  #main_steps_screen_block { padding-bottom: 450px; }
+
+  #main_complex_screen_block .screen_block_wcont { width: 100%; margin-left: 0; }
+  
+
+  
+
+  /***** MAIN ANDREY QUOTE ****/
+
+  #main_andrey_quote_screen_portrait { left: calc(50% - 478px); }
+  #main_andrey_quote_screen_cont_quote { width: 653px; height: 285px; background: url('images/main_andrey_quote_screen_cont_quote_bubble.png') right top no-repeat; background-size: 590px 285px; margin-left: calc(50% - 290px); top: 390px; }
+  #main_andrey_quote_screen_txt { width: 500px; font-size: 16px; line-height: 24px; padding-left: 134px; padding-top: 48px; background: url('images/quote_l_or.png') top 0 left 110px no-repeat; background-size: 41px 39px; margin-top: 18px; }
+  #main_andrey_quote_screen_auth { margin-right: 36px; font-size: 18px; line-height: 24px; padding-top: 72px; margin-top: -18px; }
+
+
+  
+  /***** MAIN PAVEL QUOTE ****/
+
+  #main_pavel_quote_screen_portrait { left: calc(50% - 478px); }
+  #main_pavel_quote_screen_cont_quote { width: 653px; height: 285px; background: url('images/main_andrey_quote_screen_cont_quote_bubble.png') right top no-repeat; background-size: 590px 285px; margin-left: calc(50% - 290px); top: 290px; }
+  #main_pavel_quote_screen_txt { width: 500px; font-size: 18px; line-height: 24px; padding-left: 134px; padding-top: 48px; background: url('images/quote_l_or.png') top 0 left 110px no-repeat; background-size: 41px 39px; margin-top: 18px; }
+  #main_pavel_quote_screen_auth { margin-right: 36px; font-size: 18px; line-height: 24px; padding-top: 72px; margin-top: 0; }
+  
+
+  #main_calc_screen_block_tabs { display: block; margin-bottom: 18px; }
+  .main_calc_screen_block_tabs_item { width: 280px; height: 46px; margin-left: calc(50% - 140px); background: url('images/main_calc_screen_block_tabs_item.png') center center no-repeat; background-size: 280px 46px; margin-bottom: 18px; line-height: 44px; text-align: center; font-size: 16px; }
+  .main_calc_screen_block_tabs_item_sel { color: #ff5001; background: url('images/main_calc_screen_block_tabs_item_sel.png') center center no-repeat; background-size: 280px 46px; }
+
+  
+/***** MAIN CALC ****/
+
+#main_calc_screen_block { padding-bottom: 36px; }
+#main_calc_screen_block_cont { width: 700px; margin-left: calc(50% - 350px); }
+#main_calc_screen_block_cont_bg { width: 1200px; height: 550px; position: absolute; top: 18px; left: 18px; z-index: 10; background: url('images/main_calc_screen_block_cont_bg.png') left top no-repeat; background-size: 1200px 550px; }
+
+#main_calc_screen_block_cont_win_res { background: url('images/main_calc_screen_block_cont_bg.png') right top no-repeat; background-size: 1200px 550px; padding: 36px 18px 36px 18px; margin-top: -3px; margin-left: 72px; }
+
+
+  
+  /***** MAIN WHY WE ****/
+
+  #main_whyus_screen_block_header { width: 700px; margin-left: calc(50% - 350px); }
+  #main_whyus_screen_block_afterheader { background: transparent; margin-top: 0; padding-top: 0; padding-left: 0; margin-left: 131px; }
+
+  #main_whyus_screen_block_txt { width: 700px; margin-left: calc(50% - 350px); text-align: left; }
+
+
+  /***** MAIN COMPLEX ****/
+
+  .main_funnel_screen_block_item { text-align: left; margin-left: 180px; }
+  #main_funnel_screen_block_cont_txt { width: 230px; left: 624px; }
+  #main_funnel_screen_block_item_txt_8 { margin-top: 120px; }
+
+
+  #main_complex_screen_block h2 { width: 700px; margin-top: 150px; margin-left: calc(50% - 350px); text-align: left; }
+  #main_complex_screen_block_txt { width: 670px; font-size: 18px; line-height: 24px; margin-left: 5.6vw; color: #a1cfec; }
+  #main_complex_screen_block_header { width: 100%; text-align: center; font-size: 36px; line-height: 48px; margin-bottom: 72px; margin-top: 90px; }
+  #main_complex_screen_block_subtxt { width: 800px; font-size: 18px; line-height: 24px; margin-left: calc(50% - 400px); text-align: center; color: #a1cfec; margin-top: 72px; margin-bottom: 36px; }
+
+  #main_complex_screen_block_graph { width: 1080px; height: 1252px; margin-left: calc(50% - 540px); overflow-x: auto; }
+  
+  #main_complex_screen_block_graph { display: none; height: 580px; }
+
+
+		#main_complex_screen_block_graph_mob { display: block; width: 280px; height: 310px; margin-left: calc(50% - 140px); position: relative; }
+		#main_complex_screen_block_graph_mob_img { display: block; width: 280px; height: 310px; background: url('images/complex_img_nobg.png') center top no-repeat; background-size: 280px 310px; position: absolute; top: 0; left: 0; z-index: 20; opacity: 0.7; }
+		#main_complex_screen_block_graph_mob_zoom { display: block; width: 90px; height: 90px; background: url('images/zoom_icon.png') center center no-repeat; background-size: 90px 90px; position: absolute; top: calc(50% + 30px); left: calc(50% - 45px); z-index: 30; cursor: pointer; }
+		#main_complex_screen_block_graph_mob .main_faq_screen_block_list_item_a { font-size: 14px; line-height: 18px; margin-top: 0; margin-left: 0; }
+		
+		
+
+
+  /***** MAIN ELENA QUOTE ****/
+
+  #main_elena_quote_screen_block {  height: 650px; }
+  #main_elena_quote_screen_portrait { left: calc(50% - 478px); }
+
+  #main_elena_quote_screen_cont { height: 601px; }
+  #main_elena_quote_screen_cont_quote { width: 653px; height: 285px; background: url('images/main_andrey_quote_screen_cont_quote_bubble.png') right top no-repeat; background-size: 590px 285px; margin-left: calc(50% - 290px); top: 130px; }
+  #main_elena_quote_screen_txt { width: 500px; font-size: 18px; line-height: 24px; padding-left: 134px; padding-top: 48px; background: url('images/quote_l_or.png') top 0 left 110px no-repeat; background-size: 41px 39px; margin-top: 18px; }
+  #main_elena_quote_screen_auth { margin-right: 36px; font-size: 18px; line-height: 24px; padding-top: 72px; margin-top: 0; }
+
+  
+
+
+  /***** MAIN HOW WE DO ****/
+
+  #main_howwedo_screen_block { padding-bottom: 100px; }
+  #main_howwedo_screen_block h2 { width: 700px; margin-left: 36px; }
+  .main_howwedo_screen_block_list_container_cont_item_txt { width: 450px; margin-top: 18px; margin-left: 90px; }
+  .main_howwedo_screen_block_list_container_cont_item_ico { height: 120px; }
+
+  #main_quiz_screen_block_txt_header { margin-left: 56px; }
+  #main_prefooter_form_screen_block_header { margin-left: 54px; }
+  #main_form_screen_block_header { margin-left: 54px; }
+
+
+  /***** MAIN reviews ****/
+
+  #main_reviews_screen_block h2 { width: 700px; margin-top: 40px; line-height: 56px; margin-left: 0; }
+  #main_reviews_screen_block_list_img_container { width: 200px; height: 240px; margin-left: 0; margin-right: 18px; }
+  #main_reviews_screen_block_list_img_container_cont { width: 172px; text-align: center; position: relative; }
+  .main_reviews_screen_block_list_img_container_cont_item { width: auto; max-width: 100%; margin-right: 0; height: auto; max-height: 100%; }
+
+  #main_reviews_screen_block_list_txt_container { width: 100%; }
+  #main_reviews_screen_block_list_txt_container_cont { width: 100%; }
+  .main_reviews_screen_block_list_txt_container_cont_item { width: 100%; }
+
+
+
+  #main_clients_screen_block .main_clients_wcont { margin-left: 36px; min-width: 680px; }
+
+  /***** FAQ ****/
+
+  #main_faq_screen_block h2 { width: 670px; margin-left: 36px; }
+  #main_faq_screen_block_list { width: 670px; margin-left: 72px; }
+
+  
+
+/***** MAIN ROBO ****/
+
+#main_prefooter_robo_screen_block { height: 683px; text-align: left; position: relative; z-index: 10; padding-top: 36px; background: linear-gradient(180deg, rgba(56,49,81,0) 0%, rgba(56,49,81,0.5) 100%); background: transparent; margin-top: -150px; margin-bottom: -130px; }
+#main_prefooter_robo_screen_block_phone { width: 600px; height: 583px; left: calc(50% - 150px); top:100px; position: absolute; z-index: 16; background: url('images/main_prefooter_robo_screen_block_phone.png') center center no-repeat;  -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; pointer-events: none; }
+
+#main_prefooter_robo_screen_block_bg { display: none; width: 100%; height: 100%; left: 0; top: 0; position: absolute; z-index: 11; background: url('images/main_form_screen_block.png') center center no-repeat;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#main_prefooter_robo_screen_block_wcont { width: 740px; height: 347px; position: relative; margin-left: calc(50% - 370px); background: url('images/main_robo_screen_block_wcont.png') 0 0 no-repeat; background-size: 740px 347px; z-index: 12; }
+#main_prefooter_robo_screen_block_header { width: 480px; height: 148px; margin-top: 36px; margin-left: 36px; -webkit-text-fill-color: transparent; -webkit-text-stroke: 1.5px #ff5001; letter-spacing: 0; font-size: 76px; line-height: 76px; font-weight: 700; position: relative; }
+#main_prefooter_robo_screen_block_header_wh { width: 308px; height: 78px; position: relative; left: 3px; top: 9px;  -webkit-text-fill-color: #fff; -webkit-text-stroke: 0; font-size: 36px; line-height: 24px; }
+
+#main_prefooter_robo_screen_block_col1 { width: 318px; height: auto; float: left; margin-left: 58px; color: #a1cfec; font-size: 28px; line-height: 36px; }
+#main_prefooter_robo_screen_block_col1 a { color: #a1cfec; }
+
+#main_prefooter_robo_screen_block_tgbtn { width: 36px ; height: 36px; background: url(images/tg_ico.png) top center no-repeat; -webkit-background-size: contain;  -moz-background-size: contain;   -o-background-size: contain;   background-size: contain; margin: 18px 0 36px 56px; float: left; }
+#main_prefooter_robo_screen_block_wabtn { width: 36px ; height: 36px; background: url(images/wa_ico.png) top center no-repeat; -webkit-background-size: contain;  -moz-background-size: contain;   -o-background-size: contain;   background-size: contain; margin: 18px 0 36px 56px; float: left; }
+
+
+
+
+  
+  /*** IN ****/
+
+  #in_breadcrumbs_screen_block_cont { margin-left: calc(((50% - 350px) + (5.6vw))); }
+
+
+
+  /***** MAIN STEPS ****/
+
+  #in_cont_screen_block h1 { width: 74vw; margin-left: calc(5.6vw); margin-bottom: 72px; font-weight: 700; z-index: 10; position: relative; text-align: left; }
+
+
+
+  /***** FOOTER ****/
+
+  #screen_footer_block .screen_block_wcont { width: 700px; margin-left: calc(50% - 350px); }
+
+  #screen_footer_block_col1 { width: 40%; margin-left: 36px; }
+  #screen_footer_block_col2 { width: 45%; margin-left: 36px; }
+  #screen_footer_block_col3 { width: 45%; margin-left: 36px; margin-top: 9px; }
+  #screen_footer_block_social { margin: 0; height: 1px; }
+  #screen_footer_block_col2_header { margin-top: 236px; }
+
+
+}

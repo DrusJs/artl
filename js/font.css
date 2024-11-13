@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'FedraSansPro-Normal';
+    src: url('font/FedraSansPro-Normal.eot');
+    src: url('font/FedraSansPro-Normal.eot?#iefix') format('embedded-opentype'),
+        url('font/FedraSansPro-Normal.woff') format('woff'),
+        url('font/FedraSansPro-Normal.ttf') format('truetype'),
+        url('font/FedraSansPro-Normal.svg#fedrasansstdnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FedraSansPro-Medium';
+    src: url('font/FedraSansPro-Medium.eot');
+    src: url('font/FedraSansPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/FedraSansPro-Medium.woff') format('woff'),
+        url('font/FedraSansPro-Medium.ttf') format('truetype'),
+        url('font/FedraSansPro-Medium.svg#fedrasansstdnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FedraSansPro-Light';
+    src: url('font/FedraSansPro-Light.eot');
+    src: url('font/FedraSansPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/FedraSansPro-Light.woff') format('woff'),
+        url('font/FedraSansPro-Light.ttf') format('truetype'),
+        url('font/FedraSansPro-Light.svg#fedrasansstdnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FedraSansPro-Book';
+    src: url('font/FedraSansPro-Book.eot');
+    src: url('font/FedraSansPro-Book.eot?#iefix') format('embedded-opentype'),
+        url('font/FedraSansPro-Book.woff') format('woff'),
+        url('font/FedraSansPro-Book.ttf') format('truetype'),
+        url('font/FedraSansPro-Book.svg#fedrasansstdnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FedraSansPro-Bold';
+    src: url('font/FedraSansPro-Bold.eot');
+    src: url('font/FedraSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/FedraSansPro-Bold.woff') format('woff'),
+        url('font/FedraSansPro-Bold.ttf') format('truetype'),
+        url('font/FedraSansPro-Bold.svg#fedrasansstdnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

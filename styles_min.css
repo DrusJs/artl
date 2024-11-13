@@ -1,0 +1,201 @@
+@media only screen and (min-width:1080px) and (max-width:1398px) {
+
+  body { min-width:1080px; overflow-x: hidden; }
+  
+
+  .screen_block_wcont { width: 1000px; margin-left: calc(50% - 500px); }
+
+
+  /***** MENU ****/
+
+  #main_menu_block_cont { width: 1000px; height: 458px; top: calc(50% - 230px); left: calc(50% - 500px); background: url('images/main_menu_cont_bg.png') left top no-repeat; background-size: 1000px 458px; }
+  #main_menu_block_cont .screen_block_wcont { width: 1000px; margin-left: calc(50% - 500px); }
+  #main_menu_block_cont_col1 { width: 400px; }
+  #main_menu_block_cont_logo { margin-top: 72px; margin-bottom: 40px; }
+  #main_menu_block_cont_col2_header { margin-top: 136px; }
+  #main_menu_block_cont_col3 { margin-top: 160px; }
+
+  #screen_footer_block_info { margin-bottom: 0; }
+
+  /***** MAIN TOP ****/
+
+  #top_screen_logo_block { width: 600px; }
+  #top_screen_contacts_block { width: 280px; }
+  #top_screen_block_soc { left: calc(50% + 168px); }
+
+
+  #main_first_screen_ini_block { height: 820px; }
+  #main_first_screen_block_header { margin-top: 360px; font-size: 36px; line-height: 48px; margin-left: 5.6vw; }
+  #main_first_screen_block_header h1 { font-size: 36px; line-height: 48px; }
+
+  #main_first_screen_block_feat { margin-left: 5.6vw; }
+  #main_first_screen_block_txt { margin-left: calc(5.6vw + 528px); }
+
+
+  /***** MAIN NUMBERS ****/
+
+  #main_numbers_screen_block h2 { width: 990px; margin-left: calc(50% - 495px); text-align: center; margin-bottom: 72px; }
+  #main_numbers_screen_block_lines { display: none; }
+  #main_numbers_screen_block .screen_block_wcont { width: 1000px; margin-left: calc(50% - 500px); }
+  #main_numbers_screen_block_cont_col1 { width: 260px; margin-right: calc(40% - 260px); margin-bottom: 72px; margin-left: 4vw; }
+  #main_numbers_screen_block_cont_col2 { width: 280px; margin-right: calc(40% - 280px); margin-bottom: 72px; }
+  #main_numbers_screen_block_cont_col3 { width: 310px; margin-right: calc(40% - 310px); }
+  #main_numbers_screen_block_cont_col4 { width: 260px; margin-right: calc(40% - 260px); }
+  
+  #main_services_screen_block_list_cont { width: 2000px; margin-left: 0; }
+
+
+  /***** MAIN SERVICES ****/
+
+  #main_services_screen_block_list_container { height: 1072px; margin-top: -120px; }
+
+
+  /***** MAIN METHODS ****/
+
+  #main_methods_screen_block h2 { width: 990px; margin-left: calc(50% - 495px); text-align: center; }
+  #main_methods_screen_block_container_cont { width: 45.6%; margin-left: calc(69% - 5.6% - 590px); }
+
+  
+  /***** MAIN WHY WE ****/
+
+  .main_whyus_screen_block_list_container_cont_item { width: 25%; }
+  .main_whyus_screen_block_list_container_cont_item_header { width: 200px; }
+  #main_whyus_screen_block_list_container_cont_item_1 { margin-left: 0; }
+  #main_whyus_screen_block_list_container_cont_item_5 { margin-left: 0; }
+  
+  #main_whyus_screen_block_list_container_cont_item_4 { width: 20%; }
+  #main_whyus_screen_block_list_container_cont_item_8 { width: 20%; }
+
+
+  /***** MAIN DIFF ****/
+
+  #main_differences_screen_block { padding-bottom: 43vw; }
+  #main_differences_screen_block_header { margin-left: 0; }
+  #main_differences_screen_block_table_caption_col1 { margin-left: calc(50% + 218px - 36px - 690px); }
+  #main_differences_screen_block_table_sepa { left: calc(50% + 218px - 2px); }
+
+  .main_differences_screen_block_table_item_col1 { margin-left: 0; }
+  .main_differences_screen_block_table_item_col2 { width: calc(50vw - 5.6vw - 36px - 37.8vw); }
+  .main_differences_screen_block_table_item_col3 { width: calc(50vw - 5.6vw - 36px - 37.8vw); }
+  #main_differences_screen_block_img { left: calc(50% + 208px - 698px); } 
+
+
+  /***** MAIN STEPS ****/
+
+  .main_steps_screen_block_list_container_cont_item { width: calc(50% - 100px); margin-left: 0; padding-left: 60px; }
+  #main_steps_screen_block_list_container_cont_item_2, #main_steps_screen_block_list_container_cont_item_4, #main_steps_screen_block_list_container_cont_item_6 { margin-left: 40px; }
+  
+
+
+  #main_complex_screen_block .screen_block_wcont { width: 100%; margin-left: 0; }
+
+  #main_funnel_screen_block .screen_block_wcont { width: 100%; margin-left: 0; }
+
+
+  
+
+  /***** MAIN ANDREY QUOTE ****/
+
+  #main_andrey_quote_screen_portrait { left: calc(50% - 578px); }
+  #main_andrey_quote_screen_cont_quote { width: 687px; height: 300px; background: url('images/main_andrey_quote_screen_cont_quote_bubble.png') right top no-repeat; background-size: 622px 300px; margin-left: calc(50% - 240px); }
+  #main_andrey_quote_screen_txt { width: 500px; font-size: 18px; line-height: 24px; padding-left: 154px; padding-top: 48px; background: url('images/quote_l_or.png') top 0 left 110px no-repeat; background-size: 41px 39px; margin-top: 18px; }
+  #main_andrey_quote_screen_auth { margin-right: 36px; font-size: 18px; line-height: 24px; padding-top: 72px; margin-top: -18px; }
+
+
+  
+  /***** MAIN PAVEL QUOTE ****/
+
+  #main_pavel_quote_screen_portrait { left: calc(50% - 578px); }
+  #main_pavel_quote_screen_cont_quote { width: 687px; height: 300px; background: url('images/main_andrey_quote_screen_cont_quote_bubble.png') right top no-repeat; background-size: 622px 300px; margin-left: calc(50% - 240px); top: 270px; }
+  #main_pavel_quote_screen_txt { width: 500px; font-size: 18px; line-height: 24px; padding-left: 154px; padding-top: 48px; background: url('images/quote_l_or.png') top 0 left 110px no-repeat; background-size: 41px 39px; }
+  #main_pavel_quote_screen_auth { margin-right: 36px; font-size: 18px; line-height: 24px; padding-top: 72px; margin-top: 0; }
+  
+
+  
+/***** MAIN CALC ****/
+
+#main_calc_screen_block_cont { width: 700px; margin-left: calc(50% - 350px); padding-bottom: 18px; }
+#main_calc_screen_block_cont_bg { width: 1200px; height: 550px; position: absolute; top: 18px; left: 18px; z-index: 10; background: url('images/main_calc_screen_block_cont_bg.png') left top no-repeat; background-size: 1200px 550px; }
+
+#main_calc_screen_block_cont_win_res { background: url('images/main_calc_screen_block_cont_bg.png') right top no-repeat; background-size: 1200px 550px; padding: 36px 18px 36px 18px; margin-top: -3px; margin-left: 72px; }
+
+  
+  /***** MAIN WHY WE ****/
+
+  #main_whyus_screen_block_header { width: 980px; margin-left: calc(50% - 460px); }
+
+
+  /***** MAIN COMPLEX ****/
+
+  #main_complex_screen_block h2 { width: 970px; margin-top: 150px; margin-left: calc(50% - 475px); text-align: center; }
+  #main_complex_screen_block_txt { width: 770px; font-size: 18px; line-height: 24px; margin-left: 5.6vw; color: #a1cfec; }
+  #main_complex_screen_block_header { width: 100%; text-align: center; font-size: 36px; line-height: 48px; margin-bottom: 72px; margin-top: 90px; }
+  #main_complex_screen_block_subtxt { width: 800px; font-size: 18px; line-height: 24px; margin-left: calc(50% - 400px); text-align: center; color: #a1cfec; margin-top: 72px; margin-bottom: 36px; }
+
+  #main_complex_screen_block_graph { display: none; width: 1080px; height: 1252px; margin-left: calc(50% - 540px); overflow-x: auto; }
+
+  #main_complex_screen_block_graph_mob { display: block; width: 280px; height: 310px; margin-left: calc(50% - 140px); position: relative; }
+  #main_complex_screen_block_graph_mob_img { display: block; width: 280px; height: 310px; background: url('images/complex_img_nobg.png') center top no-repeat; background-size: 280px 310px; position: absolute; top: 0; left: 0; z-index: 20; opacity: 0.7; }
+  #main_complex_screen_block_graph_mob_zoom { display: block; width: 90px; height: 90px; background: url('images/zoom_icon.png') center center no-repeat; background-size: 90px 90px; position: absolute; top: calc(50% + 30px); left: calc(50% - 45px); z-index: 30; cursor: pointer; }
+  #main_complex_screen_block_graph_mob .main_faq_screen_block_list_item_a { font-size: 14px; line-height: 18px; margin-top: 0; margin-left: 0; }
+  
+  
+
+
+  /***** MAIN ELENA QUOTE ****/
+
+  #main_elena_quote_screen_block {  height: 650px; }
+  #main_elena_quote_screen_portrait { left: calc(50% - 578px); }
+
+  #main_elena_quote_screen_cont { height: 601px; }
+  #main_elena_quote_screen_cont_quote { width: 687px; height: 300px; background: url('images/main_andrey_quote_screen_cont_quote_bubble.png') right top no-repeat; background-size: 622px 300px; margin-left: calc(50% - 240px); top: 100px; }
+  #main_elena_quote_screen_txt { width: 500px; font-size: 18px; line-height: 24px; padding-left: 154px; padding-top: 48px; background: url('images/quote_l_or.png') top 0 left 110px no-repeat; background-size: 41px 39px; }
+  #main_elena_quote_screen_auth { margin-right: 36px; font-size: 18px; line-height: 24px; padding-top: 72px; margin-top: -18px; }
+
+
+
+
+  /***** MAIN HOW WE DO ****/
+
+  #main_howwedo_screen_block { padding-bottom: 100px; }
+  #main_howwedo_screen_block_list_container { margin-left: 0; }
+  .main_howwedo_screen_block_list_container_cont_item_txt { width: 450px; }
+
+
+  /***** MAIN reviews ****/
+
+  #main_reviews_screen_block_list_img_container { width: 272px; margin-left: 0; margin-right: 72px; }
+  #main_reviews_screen_block_list_img_container_cont { width: 272px; text-align: center; position: relative; }
+  .main_reviews_screen_block_list_img_container_cont_item { width: auto; max-width: 100%; margin-right: 0; height: auto; max-height: 100%; }
+
+  #main_reviews_screen_block_list_txt_container { width: 500px; }
+  #main_reviews_screen_block_list_txt_container_cont { width: 500px; }
+  .main_reviews_screen_block_list_txt_container_cont_item { width: 500px; }
+
+
+  /***** FAQ ****/
+
+  #main_faq_screen_block_list { width: 770px; margin-left: 19vw; }
+
+
+
+
+  
+  /*** IN ****/
+
+  #in_breadcrumbs_screen_block_cont { margin-left: calc(((50% - 500px) + (5.6vw - 60px))); }
+
+
+
+  /***** FOOTER ****/
+
+  #screen_footer_block .screen_block_wcont { width: 1000px; margin-left: calc(50% - 500px); }
+
+  #screen_footer_block_col1 { margin-left: calc(5.6vw - 40px); }
+  #screen_footer_block_col2 { width: 35%; }
+  
+  #screen_footer_block_social { display: none; }
+  #screen_footer_block_details { margin-top: 282px; }
+
+
+}

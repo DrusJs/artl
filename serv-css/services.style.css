@@ -83,14 +83,14 @@ body {
     
 
     /* remove */
-    background-image: url(../images/bg-group.webp);
+    background-image: url(../serv-images/bg-group.webp);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 body.bg-single {
-    background-image: url(../images/bg-group.webp), url(../images/serv-single-body.webp);    
+    background-image: url(../serv-images/bg-group.webp), url(../serv-images/serv-single-body.webp);    
     background-position: top center, top 900px center;
     background-repeat: no-repeat, no-repeat;
     background-size: 100% 900px, 100%;
@@ -132,6 +132,10 @@ button {
 
 .color-sky {
     color: var(--color-sky);
+}
+
+.main {
+    padding-top: 200px;
 }
 
 .text-center {
@@ -273,7 +277,7 @@ h1.title {
 
 .services-info {
     min-height: 1400px;
-    background-image: url(../images/bg-serv.webp);
+    background-image: url(../serv-images/bg-serv.webp);
     background-position: center center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -321,7 +325,7 @@ h1.title {
 }
 
 .services-grid-item:nth-child(1) .grid-item-header {
-    background-image: url(../images/srv-bg-1.webp);
+    background-image: url(../serv-images/srv-bg-1.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
@@ -330,7 +334,7 @@ h1.title {
 }
 
 .services-grid-item:nth-child(2) .grid-item-header {
-    background-image: url(../images/srv-bg-2.webp);
+    background-image: url(../serv-images/srv-bg-2.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
@@ -340,7 +344,7 @@ h1.title {
 
 
 .services-grid-item:nth-child(3) .grid-item-header {
-    background-image: url(../images/srv-bg-3.webp);
+    background-image: url(../serv-images/srv-bg-3.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
@@ -349,7 +353,7 @@ h1.title {
 }
 
 .services-grid-item:nth-child(4) .grid-item-header {
-    background-image: url(../images/srv-bg-4.webp);
+    background-image: url(../serv-images/srv-bg-4.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
@@ -358,7 +362,7 @@ h1.title {
 }
 
 .services-grid-item:nth-child(5) .grid-item-header {
-    background-image: url(../images/srv-bg-5.webp);
+    background-image: url(../serv-images/srv-bg-5.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
@@ -372,7 +376,7 @@ h1.title {
     display: flex;
     align-items: center;
     gap: 34px;
-    background-image: url(../images/service-item-main.webp);
+    background-image: url(../serv-images/service-item-main.webp);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 100% 100%;
@@ -386,7 +390,7 @@ h1.title {
 .grid-item-link-text {
     width: 350px;
     height: 70px;
-    background-image: url(../images/service-item-inner.png);
+    background-image: url(../serv-images/service-item-inner.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
@@ -403,19 +407,19 @@ h1.title {
 }
 
 .services-grid-item:nth-child(2) .grid-item-link-text {
-    background-image: url(../images/service-item-inner2.png);
+    background-image: url(../serv-images/service-item-inner2.png);
 }
 
 .services-grid-item:nth-child(3) .grid-item-link-text {
-    background-image: url(../images/service-item-inner4.png);
+    background-image: url(../serv-images/service-item-inner4.png);
 }
 
 .services-grid-item:nth-child(4) .grid-item-link-text {
-    background-image: url(../images/service-item-inner4.png);
+    background-image: url(../serv-images/service-item-inner4.png);
 }
 
 .services-grid-item:nth-child(5) .grid-item-link-text {
-    background-image: url(../images/service-item-inner5.png);
+    background-image: url(../serv-images/service-item-inner5.png);
 }
 
 .grid-item-link-arrows {
@@ -605,7 +609,7 @@ h1.title {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
-    background-image: url(../images/faq-tab-bg.gif);
+    background-image: url(../serv-images/faq-tab-bg.gif);
 }
 
 .faq-tab-wrapper.active .faq-tab-content {
@@ -716,8 +720,7 @@ h1.title {
 
 .consultation-info__employee {
     border-radius: 0px 0px 10px 10px;
-    box-shadow: 0px 4.79778px 12px rgba(0, 0, 0, 0.25), inset 0px 1px 4.79778px rgba(255, 255, 255, 0.02);
-    backdrop-filter: blur(41.9806px);
+    backdrop-filter: blur(20px);
     background-color: rgba(5, 5, 5, 0.2);
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     padding: 15px 16px 33px 16px;
@@ -1009,7 +1012,7 @@ h1.title {
     padding: 68px 100px 78px 100px;
     max-width: 833px;
     width: 100%;
-    background-image: url(../images/consult-bg1.png);
+    background-image: url(../serv-images/consult-bg1.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -1043,7 +1046,7 @@ h1.title {
 .consult-roadmap__form-wrapper {
     margin-top: 67px;
     margin-left: 168px;
-    background-image: url(../images/consult-bg3.png);
+    background-image: url(../serv-images/consult-bg3.png);
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 1020px;
@@ -1099,7 +1102,7 @@ h1.title {
 
 .primary-button {
     font-family: var(--font-primary);
-    background-image: url(../images/consult-button-bg.png);
+    background-image: url(../serv-images/consult-button-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
@@ -1127,7 +1130,7 @@ h1.title {
     max-width: 588px;
     width: 100%;
     height: 415px;
-    background-image: url(../images/consult-bg2.png), url(../images/consult-roadmap-gifbg.gif);
+    background-image: url(../serv-images/consult-bg2.png), url(../serv-images/consult-roadmap-gifbg.gif);
     background-size: cover, 270px 420px;
     background-position: top left, top 50px left 90px;
     background-repeat: no-repeat;
@@ -1195,7 +1198,7 @@ h1.title {
 }
 
 .price-bg {
-    background-image: url(../images/price.webp);    
+    background-image: url(../serv-images/price.webp);    
     background-position: top 200px center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1419,22 +1422,22 @@ h1.title {
         max-width: 500px;
     }
     .services-grid-item:nth-child(1) .grid-item-link-text {
-        background-image: url(../images/service-item-inner2.png);
+        background-image: url(../serv-images/service-item-inner2.png);
     }
     .services-grid-item:nth-child(2) .grid-item-link-text {
-        background-image: url(../images/service-item-inner2.png);
+        background-image: url(../serv-images/service-item-inner2.png);
     }
     
     .services-grid-item:nth-child(3) .grid-item-link-text {
-        background-image: url(../images/service-item-inner.png);
+        background-image: url(../serv-images/service-item-inner.png);
     }
     
     .services-grid-item:nth-child(4) .grid-item-link-text {
-        background-image: url(../images/service-item-inner4.png);
+        background-image: url(../serv-images/service-item-inner4.png);
     }
     
     .services-grid-item:nth-child(5) .grid-item-link-text {
-        background-image: url(../images/service-item-inner4.png);
+        background-image: url(../serv-images/service-item-inner4.png);
     }
     .services-single-road .chain {
         display: none;
@@ -1543,7 +1546,7 @@ h1.title {
         background-size: 100% 800px;
     }
     .services-info {
-        background-image: url(../images/bg-mob.webp);
+        background-image: url(../serv-images/bg-mob.webp);
     }
 }
 
@@ -1586,7 +1589,7 @@ h1.title {
         gap: 20px;
     }
     .services-grid-item:nth-child(2) .grid-item-link-text {
-        background-image: url(../images/service-item-inner.png);
+        background-image: url(../serv-images/service-item-inner.png);
     }
     .services-grid {
         grid-template-columns: repeat(2, 1fr);

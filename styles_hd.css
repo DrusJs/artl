@@ -1,0 +1,141 @@
+@media only screen  and (min-width:1760px) {
+
+
+  .screen_block_wcont { width: 1700px; margin-left: calc(50% - 850px); }
+
+
+  /***** MAIN TOP ****/
+
+  #top_screen_logo_block { width: 1000px; margin-left: calc(50% - 850px); }
+  #top_screen_contacts_block { width: 300px; }
+  #top_screen_menu_btn { float: right; margin-right: calc(50% - 850px); }
+  #top_screen_block_soc { width: 186px; height: 24px; position: fixed; top: 18px; left: calc(50% + 150px + 150px); z-index: 102; }
+
+
+
+    
+  /***** MAIN FIRST ****/
+
+  #main_first_screen_block_fem { height: 1000px; text-align: left; position: relative; z-index: 10; }
+  #main_first_screen_block { width: 100vw; height: 1000px; text-align: left; position: fixed; z-index: 10; }
+
+  #main_first_screen_block_header { margin-left: calc(69% - 850px); }
+  #main_first_screen_block_feat { margin-left: calc(64% - 850px); }
+  #main_first_screen_block_txt { margin-left: calc(64% - 850px + 528px); }
+
+  #main_first_screen_ini_block_video { right: calc(55.6% - 850px + 20px); }
+
+
+
+
+  /***** MAIN NUMBERS ****/
+
+  #main_numbers_screen_block .screen_block_wcont { width: 1700px; margin-left: calc(50% - 850px); position: relative; }
+
+
+
+  /***** MAIN ANDREY QUOTE ****/
+
+  #main_andrey_quote_screen_portrait { left: calc(69% - 318px - 850px); }
+  #main_andrey_quote_screen_cont_quote { margin-left: calc(69% - 850px); }
+
+  #main_andrey_quote_screen_block_more { right: calc(50% - 800px); }
+
+
+
+  /***** MAIN SERVICES ****/
+
+  #main_services_screen_block h2 { margin-left: calc(69% - 850px); }
+  #main_services_screen_block_txt { margin-left: calc(55.6% - 850px); }
+
+  #main_services_screen_block_more { right: calc(50% - 800px); }
+  
+  #main_services_screen_block_btmtxt { margin-left: calc(55.6% - 850px); } 
+
+    
+  /***** MAIN METHODS ****/
+
+  #main_methods_screen_block .screen_block_wcont { width: 1700px; margin-left: calc(50% - 850px); position: relative; }
+  #main_methods_screen_block_container_graph { margin-left: calc(55.6% - 850px - 24px); }
+  #main_methods_screen_block_container_cont { width: 48.6%; margin-left: calc(69% - 5.6% - 1020px); }
+  #main_methods_screen_block_container_dots { width: 190px; right:  calc(55.6% - 700px); }
+
+
+
+  /***** MAIN PAVEL QUOTE ****/
+
+  #main_pavel_quote_screen_portrait { left: calc(69% - 318px - 850px); }
+  #main_pavel_quote_screen_cont_quote { margin-left: calc(69% - 850px); }
+
+  
+
+  /***** MAIN WHY WE ****/
+
+  #main_whyus_screen_block_header { width: 70%; margin-left: calc(69% - 850px); }
+
+  .main_whyus_screen_block_list_container_cont_item { width: 25%; }
+  #main_whyus_screen_block_list_container_cont_item_1,#main_whyus_screen_block_list_container_cont_item_5 { margin-left: 2.8%; }
+  #main_whyus_screen_block_list_container_cont_item_4,#main_whyus_screen_block_list_container_cont_item_8 { width: 20%; }
+
+
+  
+
+/***** MAIN DIFF ****/
+
+#main_differences_screen_block_img { left: calc(50% + 272px - 698px); }
+#main_differences_screen_block_table_caption_col1 { margin-left: calc(50% + 272px - 36px - 690px); }
+#main_differences_screen_block_table_sepa { left: calc(50% + 272px - 2px); }
+
+
+
+
+  /***** MAIN STEPS ****/
+
+  .main_steps_screen_block_list_container_cont_item { width: calc(50% - 100px); margin-left: 0; padding-left: 60px; }
+  #main_steps_screen_block_list_container_cont_item_2, #main_steps_screen_block_list_container_cont_item_4, #main_steps_screen_block_list_container_cont_item_6 { margin-left: 40px; }
+
+  
+  /***** MAIN ELENA QUOTE ****/
+
+  #main_elena_quote_screen_portrait { left: calc(69% - 318px - 850px); }
+
+  #main_elena_quote_screen_cont { height: 601px; }
+  #main_elena_quote_screen_cont_quote { margin-left: calc(69% - 850px); }
+
+  
+  /***** MAIN HOW WE DO ****/
+
+  #main_howwedo_screen_block .screen_block_wcont { width: 1700px; margin-left: calc(50% - 850px); }
+
+  #main_howwedo_screen_block_list_container { width: 1400px; margin-left: 5.6vw; }
+  #main_howwedo_screen_block_list_container_cont { width: 1000000px; margin-top: 36px; }
+  .main_howwedo_screen_block_list_container_cont_item { width: 1400px; }
+  .main_howwedo_screen_block_list_container_cont_item_ico { width: 16%; margin: 0 4.8% 0 4.8%; }
+  .main_howwedo_screen_block_list_container_cont_item_txt { width: 50%; }
+
+  #main_howwedo_screen_block_container_controls { right: calc(50% - 850px); }
+
+
+
+
+  /***** MAIN reviews ****/
+
+  #main_reviews_screen_block .screen_block_wcont { width: 1700px; margin-left: calc(50% - 850px); }
+  #main_reviews_screen_block_list_img_container_cont { width: 472px; text-align: center; position: relative; }
+  .main_reviews_screen_block_list_img_container_cont_item { width: auto; max-width: 100%; margin-right: 0; height: auto; max-height: 100%; }
+
+
+
+  
+  /*** IN ****/
+
+  #in_breadcrumbs_screen_block_cont { margin-left: calc(((50% - 850px) + (5.6vw - 60px))); }
+
+
+
+
+  /***** FOOTER ****/
+  
+  #screen_footer_block .screen_block_wcont { width: 1700px; margin-left: calc(50% - 850px); }
+
+}
