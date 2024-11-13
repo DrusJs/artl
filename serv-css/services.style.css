@@ -1506,6 +1506,27 @@ h1.title {
     .consultation-info__wrapper {
         gap: 12px;
     }
+    .consult-roamap__decor img:first-child {
+        left: 100px;
+        top: 766px;
+    }
+    .consult-roadmap__form-wrapper {
+        background-position: top center;
+        padding: 40px 40px 0;
+    }
+    .consult-roamap__monitor-decor {
+        position: static;
+    }
+    .consult-roamap__decor img:nth-child(2) {
+        top: 766px;
+        left: 300px;
+    }
+    .consult-roamap__decor img:nth-child(3) {
+        transform: rotate(90deg);
+        left: 280px;
+        top: 196px;
+        width: 38px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1531,6 +1552,9 @@ h1.title {
     .container {
         padding: 0 24px;
     }
+    .banner-text {
+        font-size: 18px;
+    }
     .consultation-info__left-wrapper {
         display: flex;
         justify-content: center;
@@ -1551,6 +1575,17 @@ h1.title {
     .services-main-inner {
         padding-bottom: 70vw;
     }
+    .faq-tab-header {
+        font-size: 18px;
+        padding: 20px;
+    }
+    .faq-tab-title {
+        font-size: 18px;
+    }
+    .faq-tab-content {
+        padding: 20px 30px;
+        gap: 20px;
+    }
     .services-grid-item:nth-child(2) .grid-item-link-text {
         background-image: url(../images/service-item-inner.png);
     }
@@ -1562,7 +1597,7 @@ h1.title {
     }
 
     .banner-logo.large {
-        max-width: 80vw;
+        max-width: 90vw;
     }
 
     .services-absolute-bg {
