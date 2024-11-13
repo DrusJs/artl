@@ -1110,8 +1110,8 @@ a.main_first_screen_ini_block_soc_item, .main_first_screen_ini_block_soc_item { 
 #main_reviews_screen_block { overflow: hidden; text-align: left; position: relative; z-index: 10; padding-bottom: 124px; background: linear-gradient(180deg, rgba(0,82,108,0.3) 0%, rgba(6,34,63,0.5) 100%); }
 #main_reviews_screen_block h2 { width: 770px; margin-top: 90px; font-size: 42px; line-height: 56px; margin-left: 19vw; margin-bottom: 72px; font-weight: 700; }
 
-#main_reviews_screen_block_list_img_container { width: 22.6vw; height: 400px; margin-left: 5.6vw; margin-right: 3vw; position: relative; float: left; }
-#main_reviews_screen_block_list_img_container_cont { width: 100000px; height: 400px; }
+#main_reviews_screen_block_list_img_container { width: 22.6vw; max-width: 310px; height: 400px; margin-left: 5.6vw; margin-right: 3vw; position: relative; float: left; }
+#main_reviews_screen_block_list_img_container_cont { width: 100000px; max-width: 310px; height: 400px; }
 .main_reviews_screen_block_list_img_container_cont_item { display: none; width: 22.6vw; margin-right: 3vw; height: auto; }
 .main_reviews_screen_block_list_img_container_cont_item_sel { display: block; }
 
