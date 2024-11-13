@@ -225,6 +225,7 @@ h1.title {
 .services-main-text,
 .services-sub-text {
     max-width: 32vw;
+    width: 100%;
 }
 
 .services-sub-text {
@@ -1206,6 +1207,223 @@ h1.title {
 
 .road-absolute img:nth-child(2) {
     display: none;
+}
+
+@media (min-width: 1980px) {
+    body {
+        background-color: var(--color-body);
+        font-family: var(--font-primary);
+        color: var(--color-white);
+        background-image: url(../serv-images/bg-group.webp);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: 100vw;
+    }
+    
+    body.bg-single {
+        background-image: url(../serv-images/bg-group.webp), url(../serv-images/serv-single-body.webp);    
+        background-position: top center, top 45.45vw center;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 100vw 45.45vw, 100vw;
+    }
+    
+    .main {
+        padding-top: 7.1vw;
+    }
+
+    .container {
+        width: 100vw;
+        max-width: 97vw;
+        padding: 0 5.56vw;
+        margin: 0 auto;
+    }
+    
+    .header-inner {
+        padding: 1.21vw 0;
+    }
+    #top_screen_logo_block {
+        margin-left: 5.56vw;
+    }
+    #top_screen_menu_btn {
+        margin-right: 5.56vw;
+    }
+    .services-absolute-bg {
+        position: absolute;
+        bottom: -10.1vw; /* -200px */
+        right: -37.37vw; /* -740px */
+        z-index: -1;
+        max-width: 50.51vw; /* 1000px */
+        width: 100%;
+    }
+    
+    
+    h1.title, .banner-text {
+        font-size: 1.82vw;
+        line-height: 1.82vw !important;
+        margin-bottom: 1vw;
+    }
+    .text-small  {
+        font-size: 0.9vw;
+    }
+    .subtitle {
+        font-size: 2.42vw;
+    }
+    
+    .services-main-inner {
+        padding: 11.62vw 0 14.14vw;
+    }
+    
+    .services-sub-text {
+        margin-left: -0.91vw;
+    }
+    
+    .services-siphone {
+        max-width: 40.2vw;
+        width: 100%;
+    }
+
+    .absolute-binary img {
+        width: 110vw;
+    }
+
+    .breadcrumbs, .breadcrumbs-link {
+        font-size: 0.7vw;
+        line-height: 1vw;
+    }
+    
+    .marquee-container {
+        gap: 1.01vw;
+        padding: 0.51vw;
+    }
+    
+    .marquee-container .marquee-logo {
+        width: 5.25vw;
+        height: auto;
+    }
+    
+    .marquee-text {
+        font-size: 0.81vw;
+        -webkit-text-stroke: 0.05vw var(--color-orange);
+    }
+    
+    .services-info {
+        padding: 3.54vw 0 6.06vw;
+    }
+    
+    .services-grid {
+        gap: 3.03vw;
+        max-width: 74.75vw;
+        margin: 3.03vw auto 0;
+    }
+    
+    .grid-item-link {
+        width: 20.2vw;
+        height: 5.56vw;
+        gap: 1.72vw;
+        font-size: 1.11vw;
+    }
+    
+    .grid-item-link-text {
+        width: 17.68vw;
+        height: 3.54vw;
+        margin-left: -1.52vw;
+    }
+    
+    .services-single-main .main-title {
+        max-width: 33.74vw;
+        margin: 5.05vw 0 4.04vw 2.53vw;
+        font-size: 2.42vw;
+    }
+    
+    .services-single-road-item {
+        width: 18.18vw;
+        height: 8.18vw;
+        padding: 2.53vw 1.01vw;
+        font-size: 1.11vw;
+        line-height: 1.82vw;
+    }
+    
+    .consultations-section .container {
+        margin-top: 10.76vw;
+        max-width: 82.12vw;
+        gap: 7.88vw;
+    }
+    .services-grid-item:nth-child(1) .grid-item-header {
+        width: 33.64vw;
+        height: 13.13vw;
+    }
+    
+    .services-grid-item:nth-child(2) .grid-item-header {
+        width: 34.34vw;
+        height: 13.13vw;
+    }
+    
+    .services-grid-item:nth-child(3) .grid-item-header {
+        width: 18.08vw;
+        height: 11.92vw;
+    }
+
+    .grid-item-header {
+        font-size: 1.7vw;
+        line-height: 1.8vw;
+    }
+
+    .grid-item-link-arrows svg {
+        width: 0.7vw;
+        height: auto;
+    }
+    
+    .services-grid-item:nth-child(4) .grid-item-header {
+        width: 18.08vw;
+        height: 11.92vw;
+    }
+    
+    .services-grid-item:nth-child(5) .grid-item-header {
+        width: 18.08vw;
+        height: 11.92vw;
+    }
+    
+    .consultation-info__left {
+        max-width: 17.78vw;
+        height: 28.48vw;
+    }
+    
+    .consultation-info__quote {
+        padding: 3.33vw;
+    }
+    
+    .consult-prise__table th, .consult-prise__table td {
+        width: 17.12vw;
+        height: 6.72vw;
+    }
+    
+    .consult-roadmap__info {
+        padding: 3.43vw 5.05vw 3.94vw;
+        max-width: 42.07vw;
+    }
+    
+    .consult-roadmap__form-wrapper {
+        margin-top: 3.38vw;
+        margin-left: 8.49vw;
+        max-width: 51.52vw;
+        height: 23.94vw;
+        padding: 3.03vw 5.05vw 0 7.37vw;
+    }
+    
+    .primary-button {
+        max-width: 20.2vw;
+        height: 4.29vw;
+        font-size: 1.01vw;
+    }
+    
+    .banner-section {
+        padding-top: 7.58vw;
+        height: 35.35vw;
+    }
+    
+    .banner-gif, .banner-bg {
+        min-width: 97vw;
+    }
 }
 
 @media (max-width:1800px) {
