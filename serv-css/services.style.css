@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'GolosText';
-    src: url('../fonts/GolosText-Regular.woff2') format('woff2'),
-        url('../fonts/GolosText-Regular.woff') format('woff'),
-        url('../fonts/GolosText-Regular.ttf') format('truetype');
+    src: url('../serv-fonts/GolosText-Regular.woff2') format('woff2'),
+        url('../serv-fonts/GolosText-Regular.woff') format('woff'),
+        url('../serv-fonts/GolosText-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -10,9 +10,9 @@
 
 @font-face {
     font-family: 'GolosText';
-    src: url('../fonts/GolosText-Medium.woff2') format('woff2'),
-        url('../fonts/GolosText-Medium.woff') format('woff'),
-        url('../fonts/GolosText-Medium.ttf') format('truetype');
+    src: url('../serv-fonts/GolosText-Medium.woff2') format('woff2'),
+        url('../serv-fonts/GolosText-Medium.woff') format('woff'),
+        url('../serv-fonts/GolosText-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -20,9 +20,9 @@
 
 @font-face {
     font-family: 'GolosText';
-    src: url('../fonts/GolosText-SemiBold.woff2') format('woff2'),
-        url('../fonts/GolosText-SemiBold.woff') format('woff'),
-        url('../fonts/GolosText-SemiBold.ttf') format('truetype');
+    src: url('../serv-fonts/GolosText-SemiBold.woff2') format('woff2'),
+        url('../serv-fonts/GolosText-SemiBold.woff') format('woff'),
+        url('../serv-fonts/GolosText-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -30,9 +30,9 @@
 
 @font-face {
     font-family: 'GolosText';
-    src: url('../fonts/GolosText-Bold.woff2') format('woff2'),
-        url('../fonts/GolosText-Bold.woff') format('woff'),
-        url('../fonts/GolosText-Bold.ttf') format('truetype');
+    src: url('../serv-fonts/GolosText-Bold.woff2') format('woff2'),
+        url('../serv-fonts/GolosText-Bold.woff') format('woff'),
+        url('../serv-fonts/GolosText-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -40,9 +40,9 @@
 
 @font-face {
     font-family: 'GolosText';
-    src: url('../fonts/GolosText-ExtraBold.woff2') format('woff2'),
-        url('../fonts/GolosText-ExtraBold.woff') format('woff'),
-        url('../fonts/GolosText-ExtraBold.ttf') format('truetype');
+    src: url('../serv-fonts/GolosText-ExtraBold.woff2') format('woff2'),
+        url('../serv-fonts/GolosText-ExtraBold.woff') format('woff'),
+        url('../serv-fonts/GolosText-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -50,9 +50,9 @@
 
 @font-face {
     font-family: 'GolosText';
-    src: url('../fonts/GolosText-Black.woff2') format('woff2'),
-        url('../fonts/GolosText-Black.woff') format('woff'),
-        url('../fonts/GolosText-Black.ttf') format('truetype');
+    src: url('../serv-fonts/GolosText-Black.woff2') format('woff2'),
+        url('../serv-fonts/GolosText-Black.woff') format('woff'),
+        url('../serv-fonts/GolosText-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -91,8 +91,9 @@ body {
 
 body.bg-single {
     background-image: url(../images/bg-group.webp), url(../images/serv-single-body.webp);    
-    background-position: top center, top 1020px center;
+    background-position: top center, top 900px center;
     background-repeat: no-repeat, no-repeat;
+    background-size: 100% 900px, 100%;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -470,7 +471,7 @@ h1.title {
 
 .services-single-main {
     position: relative;
-    min-height: 960px;
+    min-height: 800px;
     overflow: hidden;
     padding-bottom: 10px;
 }
@@ -538,12 +539,12 @@ h1.title {
 .services-single-faq {
     position: relative;
     overflow: hidden;
+    padding: 160px 0 260px;
 }
 
 .faq-tabs {    
     width: 100%;
     min-height: 521px;
-    padding: 170px 0 300px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -573,6 +574,7 @@ h1.title {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 30px;
     cursor: pointer;
     min-height: 110px;
 }
@@ -587,23 +589,23 @@ h1.title {
     z-index: 2;
     padding: 18px 86px 20px 60px;
     background-color: rgba(255, 255, 255, 0.04);
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     min-height: 521px;
-    width: 60%;
+    width: 100%;
+    max-width: calc(((100vw - 1920px)/2) + 1060px);
     display: none;
     flex-direction: column;
     overflow: hidden;
     gap: 30px;
-    right: -100px;
+    right: 0px;
     padding-right: 100px;
-    top: 100px;
+    top: 160px;
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
     background-image: url(../images/faq-tab-bg.gif);
-    /* mix-blend-mode: screen; */
 }
 
 .faq-tab-wrapper.active .faq-tab-content {
@@ -614,21 +616,23 @@ h1.title {
     font-size: 32px;
 }
 .faq-tab-list {
-    padding-left: 30px;
+    padding-left: 14px;
 }
 .faq-tab-list li {
-    font-size: 20px;
+    font-size: 15px;
+    line-height: 27px;
 }
 .fq-contant-bg {
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: -1;
-
+    pointer-events: none;
 }
 
 .faq-tab-header svg {    
     filter: drop-shadow(0px 0px 2px #F74E1B);
+    min-width: 15px;
 }
 
 .consultations-section .container {
@@ -687,21 +691,12 @@ h1.title {
 
 .consultation-info__gif {
     width: 100%;
-    height: 380px;
-    /* background-image: url(../images/consultation-gif.gif); */
-    background-size: 352px 380px;
+    height: 391px;
+    background-size: 352px 384px; 
     background-repeat: no-repeat;
     border-radius: 10px 10px 0 0;
     position: relative;
     z-index: -1;
-}
-
-.consultation-info__wrapper:nth-child(3) .consultation-info__gif{
-    /* background-image: url(../images/consultation-gif2.gif); */
-}
-
-.consultation-info__wrapper:nth-child(4) .consultation-info__gif{
-    /* background-image: url(../images/consultation-gif3.gif); */
 }
 
 .consultation-info__img {
@@ -797,10 +792,11 @@ h1.title {
     backdrop-filter: blur(41.9806px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     width: 100%;
-    padding: 66px 0;
+    padding: 66px;
     display: flex;
     align-self: center;
     justify-content: center;
+    line-height: 160%;
     position: relative;
 }
 
@@ -831,18 +827,18 @@ h1.title {
     background-repeat: no-repeat;
     background-position: top right;
     width: 100%;
-    padding: 55px 0;
+    padding: 55px 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 399px;
+    height: 390px;
 }
 
 .consultation-info__list {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 26px;
 }
 
 .consultation-info__item {
@@ -867,6 +863,7 @@ h1.title {
 
 .consult-prise-section {
     margin-top: 300px;
+    overflow: hidden;
 }
 
 .consult-prise-section .container {
@@ -885,6 +882,7 @@ h1.title {
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.3);
     position: relative;
+    z-index: 1;
 }
 
 .table-bg {
@@ -1161,20 +1159,26 @@ h1.title {
 .banner-section {
     position: relative;
     padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 220px;
+    overflow: hidden;
+    height: 700px;
 }
 
 .banner-gif {
     position: absolute;
-    top: 58px;
-    left: 0;
+    top: 4px;
     width: 100%;
     z-index: 1;
+    min-width: 1920px;
 }
 .banner-bg {
     position: absolute;
     top: 0;
-    left: 0;
     width: 100%;
+    min-width: 1920px;
 }
 
 .banner-content {
@@ -1196,6 +1200,20 @@ h1.title {
     background-position: top 200px center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (max-width:1800px) {
+    .road-absolute {
+        max-width: calc(100% - 60px);
+        left: 30px;
+    }
+    .faq-tab-content {
+        max-width: 50vw;
+    }
+    .faq-tab-header {
+        max-width: calc(50vw - 70px);
+    }
+    
 }
 
 @media (max-width: 1540px) {
@@ -1246,15 +1264,58 @@ h1.title {
     }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1460px) {
     body {
         background-size: 100% 770px;
+    }
+    .services-single-main .main-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .services-single-road-item {
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .primary-button {
+        font-size: 17px;
+    }
+    .faq-tab-header {
+        font-size: 21px;
+    }
+    .faq-tab-title {
+        font-size: 24px;
+    }
+    .faq-tab-content {
+        min-height: 390px;
+        top: 230px;
+        padding: 30px 66px 20px 40px;
+    }
+    .services-single-road .chain {
+        width: 60px;
+    }
+    .faq-tab-header {
+        min-height: 80px;
+    }
+    .services-single-faq {
+        padding-bottom: 0px;
+    }
+    .consultation-info__quote h3 {
+        font-size: 21px;
+    }
+    .consultation-info__item {
+        font-size: 12px;
     }
 }
 
 @media (max-width: 1340px) {
     .container {
         padding: 0 36px;
+    }
+    .faq-tab-header {
+        max-width: calc(50vw);
+    } 
+    .consult-roadmap__form-wrapper {
+        margin-left: 0;
     }
 }
 
@@ -1363,6 +1424,45 @@ h1.title {
     
     .services-grid-item:nth-child(5) .grid-item-link-text {
         background-image: url(../images/service-item-inner4.png);
+    }
+    .services-single-road .chain {
+        display: none;
+    }
+    .services-single-road {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        justify-items: center;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .faq-tab-content {
+        position: static;
+        width: 100%;
+        max-width: 100%;
+    }
+    .faq-tab-header {
+        max-width: 100%;
+        width: 100%;
+    }
+    .road-absolute {
+        max-width: 100%;
+        left: 0;
+        top: 20px;
+    }
+    .road-absolute img {
+        width: 90%;
+        height: 120px;
+        margin: 0 auto;
+    }
+    .services-single-road-item {
+        max-width: 360px;
+        width: 100%;
+        padding: 20px;
+        height: 126px;
+    }
+    .linear-rnb-item {
+        height: 65px;
     }
 }
 
