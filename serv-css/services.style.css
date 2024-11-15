@@ -83,7 +83,7 @@ body {
     
 
     /* remove */
-    background-image: url(../serv-images/bg-group.webp);
+    /* background-image: url(../serv-images/bg-group.webp); */
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -94,6 +94,21 @@ body.bg-single {
     background-position: top center, top 900px center;
     background-repeat: no-repeat, no-repeat;
     background-size: 100% 900px, 100%;
+}
+
+.bg-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    z-index: -2;
+}
+
+.bg-fixed img {
+    width: 100%;
+    height: 100dvh;
+    object-fit: cover;
 }
 
 h1, h2, h3, h4, h5, h6, p {
