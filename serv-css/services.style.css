@@ -2102,8 +2102,11 @@ h1.title {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .consult-roadmap__form .primary-button {
         left: 10%;
+    }
+    .consultations-section  {
+        overflow: hidden;
     }
 }
