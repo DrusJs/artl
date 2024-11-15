@@ -2106,6 +2106,9 @@ h1.title {
     .consult-roadmap__form .primary-button {
         left: 10%;
     }
+    .breadcrumbs, .breadcrumbs-link {
+        font-size: 12px;
+    }
     .consultations-section  {
         overflow: hidden;
     }
