@@ -45,7 +45,7 @@ body {
 	overflow-y: auto;
 	min-height: 100%;
 	margin: 0;
-	text-align: center;
+	/* text-align: center; */
     font-family: 'Golos', sans-serif;
 	color:#fff;
 	font-size:14px;

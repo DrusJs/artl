@@ -1689,6 +1689,9 @@ h1.title {
     .absolute-binary {
         top: 40px;
     }
+    .faq-tab-content {
+        border-radius: 10px;
+    }
     .services-main-text, .services-sub-text {
         max-width: 45vw;
     }
