@@ -1943,6 +1943,9 @@ h1.title {
     .call-flex {
         display: none;
     }
+    .consultation-info__employee {
+        backdrop-filter: none;
+    }
     body {
         background-size: 100% 800px;
     }
