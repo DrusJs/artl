@@ -2100,6 +2100,9 @@ h1.title {
     .banner-bg {
         min-width: 1100px;
     }
+    #main_first_screen_ini_block_soc {
+        display: none;
+    }
 }
 
 @media (max-width: 500px) {
