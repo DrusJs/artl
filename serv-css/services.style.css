@@ -1063,6 +1063,7 @@ h1.title {
 .consult-roadmap-section {
     margin-top: 260px;
     margin-bottom: 200px;
+    overflow: hidden;
 }
 
 .consult-roadmap-section .container {
@@ -1104,6 +1105,8 @@ h1.title {
 
 .consult-roadmap__form {
     position: relative;
+    width: 100%;
+    max-width: 90vw;
 }
 
 .consult-roadmap__forms-wrapper {
@@ -1285,6 +1288,10 @@ h1.title {
 }
 
 .road-absolute img:nth-child(2) {
+    display: none;
+}
+
+.consult-roadmap__info img {
     display: none;
 }
 
@@ -1900,6 +1907,29 @@ h1.title {
     .subtitle {
         font-size: 38px;
     }
+    .consult-roadmap__form {
+        display: flex;
+        justify-content: center;
+    }
+    .consult-roadmap__form-wrapper {
+        margin-left: -40px;
+        min-width: 1120px;
+        display: flex;
+    }
+    .consult-roadmap__forms-wrapper {
+        max-width: 700px;
+        width: 100%;
+    }
+    .consult-roadmap__form .primary-button {
+        bottom: 100px;
+        right: 30px;
+    }
+    .consult-roadmap__form-left {
+        max-width: 250px;
+    }
+    .consult-roadmap__form-right {
+        max-width: 300px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1919,12 +1949,62 @@ h1.title {
     .services-info {
         background-image: url(../serv-images/bg-mob.webp);
     }
-    
+
+    .banner-section {
+        height: 320px;
+    }
+    .consult-roadmap__info {
+        background-size: 100% 100%;
+        position: relative;
+        padding: 68px 40px 80px 50px;
+    }
+    .consult-roamap__decor img:first-child,
+    .consult-roamap__decor img:nth-child(2) {
+        top: auto;
+        bottom: 798px;
+    }
+    .consult-roamap__decor img:nth-child(3) {
+        display: none;
+    }
+    .consult-roadmap__info img {
+        display: block;
+        transform: rotate(90deg);
+        left: 145px;
+        bottom: -80px;
+        width: 21px;
+        position: absolute;
+    }
+    .consult-roamap__monitor-decor {
+        margin-top: -20px;
+        background-position: top left, top 40px left 30px;
+        background-size: 100% 100%, 260px 410px;
+    }
 }
 
 @media (max-width: 700px) {
     .container {
         padding: 0 24px;
+    }
+    .consult-roamap__decor img:first-child {
+        left: 60px;
+    }
+    .consult-roamap__decor img:nth-child(2) {
+        left: 200px;
+    }
+    .consult-roadmap__form-wrapper {
+        height: 800px;
+        min-width: 800px;
+    }
+    .consult-roadmap__forms-wrapper {
+        flex-direction: column;
+    }
+    .consult-roadmap__form .primary-button {
+        left: 30%;
+        bottom: 150px;
+    }
+    .consult-roadmap__form-left,
+    .consult-roadmap__form-right {
+        max-width: 100%;
     }
     
     .subtitle,
@@ -2019,5 +2099,11 @@ h1.title {
     .banner-gif,
     .banner-bg {
         min-width: 1100px;
+    }
+}
+
+@media (max-width: 450px) {
+    .consult-roadmap__form .primary-button {
+        left: 10%;
     }
 }
