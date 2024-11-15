@@ -1133,7 +1133,11 @@ h1.title {
     gap: 8px;
     width: 100%;
 }
-
+#main_faq_screen_block_bg_topgr,
+#main_reviews_screen_block {
+    background-image: none !important;
+    background: none !important;
+}
 .consult-roadmap__form-left {
     width: 100%;
     max-width: 287px;
@@ -1235,7 +1239,7 @@ h1.title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 220px;
+    margin-top: -150px;
     overflow: hidden;
     height: 700px;
 }
@@ -1273,6 +1277,7 @@ h1.title {
     background-position: top 200px center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 80px;
 }
 
 .consult-bg {
