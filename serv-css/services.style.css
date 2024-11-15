@@ -180,6 +180,7 @@ h1.title {
 .banner-text {
     font-size: 36px;
     font-weight: 500;
+    line-height: 120%;
 }
 
 .subtitle {
@@ -581,6 +582,7 @@ h1.title {
     padding: 18px 86px 20px 60px;
     background-color: rgba(255, 255, 255, 0.04);
     border-radius: 10px;
+    line-height: 120%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 4.79778px 12px, rgba(255, 255, 255, 0.02) 0px 1px 4.79778px inset;
     backdrop-filter: blur(41.9806px);
     border-width: 1px 1px medium;
@@ -634,6 +636,7 @@ h1.title {
 
 .faq-tab-title {
     font-size: 32px;
+    line-height: 120%;
 }
 .faq-tab-list {
     padding-left: 14px;
