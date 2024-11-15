@@ -705,7 +705,6 @@ h1.title {
     border-radius: 10px 10px 0 0;
     left: 0;
     z-index: 2;
-    /* mix-blend-mode: screen; */
 }
 
 .consultation-info__gif {
@@ -1069,6 +1068,7 @@ h1.title {
 .consult-roadmap-section .container {
     max-width: 1577px;
     position: relative;
+    mix-blend-mode: screen;
 }
 
 .consult-roadmap-section .subtitle {
