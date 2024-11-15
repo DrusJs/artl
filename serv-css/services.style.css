@@ -1310,7 +1310,9 @@ h1.title {
         background-repeat: no-repeat;
         background-size: 100vw;
     }
-    
+    .services-single-main .main-title {
+        line-height: 140%;
+    }
     body.bg-single {
         background-image: url(../serv-images/bg-group.webp), url(../serv-images/serv-single-body.webp);    
         background-position: top center, top 45.45vw center;
