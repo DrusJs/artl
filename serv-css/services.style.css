@@ -102,7 +102,7 @@ body.bg-single {
     left: 0;
     width: 100%;
     height: 100dvh;
-    z-index: -2;
+    z-index: -10;
 }
 
 .bg-fixed img {
@@ -267,7 +267,7 @@ h1.title {
     align-items: center;
     gap: 20px;
     padding: 10px;
-    animation: marquee-anim 6s linear infinite;
+    animation: marquee-anim 16s linear infinite;
 }
 
 .marquee-container .marquee-logo {
@@ -286,7 +286,7 @@ h1.title {
     }
 
     100% {
-        transform:  translateX(-440px);
+        transform:  translateX(-880px);
     }
 }
 
@@ -928,7 +928,6 @@ h1.title {
 
 .consult-prise__table th, .consult-prise__table td {
     font-weight: 600;
-    width: 339px;
     height: 133px;
     text-align: left;
 }
@@ -1153,7 +1152,7 @@ h1.title {
     mix-blend-mode: screen;
     position: absolute;
     top: -37px;
-    right: 116px;
+    left: 864px;
 }
 
 .consult-roamap__decor img:first-child {
@@ -1170,7 +1169,7 @@ h1.title {
 
 .consult-roamap__decor img:nth-child(3) {
     position: absolute;
-    right: 684px;
+    left: 869px;
     top: 152px;
 }
 
@@ -1245,6 +1244,17 @@ h1.title {
     .main {
         padding-top: 7.1vw;
     }
+
+    @keyframes marquee-anim {
+        0% {
+            transform:  translateX(0px);
+        }
+    
+        100% {
+            transform:  translateX(-43vw);
+        }
+    }
+    
 
     .container {
         width: 100vw;
@@ -1452,7 +1462,15 @@ h1.title {
     .faq-tab-header {
         max-width: calc(50vw - 70px);
     }
-    
+
+    .consult-prise__table th {
+        padding: 0 3vw;
+    }
+    .consult-prise__table tr:nth-child(2) td:last-child,
+    .consult-prise-section .consult-prise__table:nth-child(3) td, 
+    .consult-prise-section .consult-prise__table:nth-child(4) td {
+        padding: 0 2vw;
+    }
 }
 
 @media (max-width: 1540px) {
@@ -1501,6 +1519,23 @@ h1.title {
         height: 53px;
         margin-left: -20px;
     }
+    .consult-prise-section {
+        margin-top: 50px;
+    }
+    .container {
+        padding: 0 36px;
+    }
+    .consult-roamap__decor img:nth-child(3) {
+        left: 795px;
+      }
+      .consult-roamap__monitor-decor {
+        left: 790px;
+        max-width: 450px;
+        background-size: 100% 100%, 270px 420px;
+      }
+      .consult-roamap__decor img:nth-child(2) {
+        left: 900px;
+      }
 }
 
 @media (max-width: 1460px) {
@@ -1550,14 +1585,11 @@ h1.title {
 }
 
 @media (max-width: 1340px) {
-    .container {
-        padding: 0 36px;
-    }
     .faq-tab-header {
         max-width: calc(50vw);
     } 
     .consult-roadmap__form-wrapper {
-        margin-left: 0;
+        margin-left: 60px;
     }
 }
 
@@ -1783,7 +1815,7 @@ h1.title {
     }
 }
 
-@media (max-width: 624px) {
+@media (max-width: 700px) {
     .container {
         padding: 0 24px;
     }

@@ -1747,7 +1747,16 @@ var tehtotalwidth = $(window).width();
 				var fromtopstart = 0;//$("#screen_portfolio_list_block_item_main_img_1").offset().top;
 				var anilength = $(window).height();
 				var tehel = null;
-
+				$(".screen_parallax_item_block").each(function( index ) {
+					fromtopstart = $(this).offset().top;
+					anilength = $(window).height();
+					fromtopstart -= anilength;
+					anilength *= 1.5; 
+	
+					tehel = $(this);
+	
+					controller.addTween(fromtopstart, TweenMax.fromTo(tehel, 0.2, {css:{ marginTop:'286px'}, ease:Quad.easeOut}, {css:{marginTop:'0px'}, ease:Quad.easeOut}), anilength);
+				});
 
 
 
@@ -1766,6 +1775,20 @@ var tehtotalwidth = $(window).width();
 					controller.addTween(fromtopstart, TweenMax.fromTo(tehel, 0.2, {css:{ marginTop:'50px'}, ease:Quad.easeOut}, {css:{marginTop:'-150px'}, ease:Quad.easeOut}), anilength);
 
 				}
+
+				var fromtopstart = $("#main_first_screen_ini_block_soc_line").offset().top;
+				var anilength = $("#main_first_screen_block_fem").height();
+				fromtopstart -= anilength;
+				anilength *= 1.5; 
+				anilength = 450; 
+
+				controller.addTween(0, TweenMax.fromTo($('#main_first_screen_ini_block_soc_line'), 0.2, {css:{ height:'100px'}, ease:Quad.easeOut}, {css:{height:'0'}, ease:Quad.easeOut}), anilength);
+
+				
+				fromtopstart = 400;
+				anilength = 100; 
+
+				controller.addTween(fromtopstart, TweenMax.fromTo($('.main_first_screen_ini_block_soc_item'), 0.2, {css:{ opacity:'1'}, ease:Quad.easeOut}, {css:{opacity:'0'}, ease:Quad.easeOut}), anilength);
 /////
 
 
