@@ -1628,6 +1628,7 @@ h1.title {
     .services-single-main .main-title {
         font-size: 36px;
         margin-bottom: 20px;
+        line-height: 42px;
     }
     .services-single-road-item {
         font-size: 17px;
@@ -1933,6 +1934,9 @@ h1.title {
     .consult-roadmap__form-right {
         max-width: 300px;
     }
+    .consult-roadmap-section {
+        margin-top: 100px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -2099,7 +2103,6 @@ h1.title {
         max-width: 65vw;
     }
     .banner-section {
-        height: 500px;
         padding-top: 80px;
     }
     .banner-gif,
