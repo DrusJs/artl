@@ -12,3 +12,15 @@ tabs.forEach(el=>{
         }
     })
 })
+
+const jsResizer = document.querySelector('.js-resize')
+const bgItem = document.querySelector('.table-bg')
+
+if (jsResizer) {
+    function reportWindowSize() {     
+        console.log(jsResizer, jsResizer.clientWidth, bgItem.style.left)   
+        bgItem.style.left = jsResizer.clientWidth+"px"
+    }
+    reportWindowSize()
+    window.onresize = reportWindowSize;
+}
