@@ -24,3 +24,14 @@ if (jsResizer) {
     reportWindowSize()
     window.onresize = reportWindowSize;
 }
+
+
+const modals = document.querySelectorAll('.modal-wrapper')
+console.log(modals)
+modals.forEach(modal=>{
+    modal.addEventListener('click', (e)=>{
+        if (e.target.classList.contains('modal-wrapper')) {
+            e.currentTarget.classList.remove('active')
+        }
+    })
+})
