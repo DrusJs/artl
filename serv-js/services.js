@@ -35,3 +35,16 @@ modals.forEach(modal=>{
         }
     })
 })
+
+const imgScale = document.querySelectorAll('.main_reviews_screen_block_list_img_container_cont_item')
+const imgScaleParent = document.querySelector('#main_reviews_screen_block_list_img_container_cont')
+if (imgScale.length > 0) {
+    imgScale.forEach(img=>{
+        img.addEventListener('click', ()=>{
+            imgScaleParent.classList.add('active')
+        })
+    })
+    imgScaleParent.addEventListener('click', (e)=>{
+        if (e.target.classList.contains('active')) { imgScaleParent.classList.remove('active') }
+    })
+}
