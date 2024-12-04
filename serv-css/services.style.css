@@ -1427,6 +1427,34 @@ h1.title {
     margin-top: 30px;
 }
 
+.tg-abs {
+    position: absolute;
+    bottom: -150px;
+    right: -200px;
+}
+
+
+.modal-tg-svg .blend {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    mix-blend-mode: color-dodge;
+    height: 100%;
+}
+
+.modal-tg-svg .blend img {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-tg-svg .modal-text {
+    color: #80FF00;
+    line-height: 130%;
+    font-size: 26px;
+}
+
 .modal-title {
     font-size: 54px;
     line-height: 140%;
