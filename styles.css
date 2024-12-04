@@ -1124,7 +1124,7 @@ a.main_first_screen_ini_block_soc_item, .main_first_screen_ini_block_soc_item { 
 .main_reviews_screen_block_list_container_cont_item_txt { font-size: 18px; line-height: 24px; padding-bottom: 30px; }
 
 
-#main_reviews_screen_block_controls {  position: absolute; top: 218px; right: 1vw; width:280px; height: 120px; padding-left: 20px; z-index: 14; }
+#main_reviews_screen_block_controls {  position: absolute; top: 130px; right: 1vw; width:280px; height: 120px; padding-left: 20px; z-index: 14; }
 #main_reviews_screen_block_controls_prev { width: 58px; height: 58px; border: 1px solid #3c749b; background: url('images/arr_left_or.png') center center no-repeat; background-size: 17px 27px; cursor: pointer; float: left; }
 #main_reviews_screen_block_controls_next { width: 58px; height: 58px; border: 1px solid #3c749b; border-left: 0; background: url('images/arr_right_or.png') center center no-repeat; background-size: 17px 27px; cursor: pointer; float: left; }
 #main_reviews_screen_block_controls_txt { position: absolute; top: 50px; white-space: nowrap; padding-right: 100px; width: 125px; padding-top: 18px; font-size: 18px; line-height: 24px; }
@@ -1188,11 +1188,11 @@ a.main_first_screen_ini_block_soc_item, .main_first_screen_ini_block_soc_item { 
 #main_faq_screen_block_list { width: 50vw; margin-left: calc(31.2vw - 36px); margin-top: 48px; position: relative; z-index: 10; }
 .main_faq_screen_block_list_item { margin-bottom: 36px; padding-bottom: 36px; border-bottom: 1px solid rgba(255,255,255,0.3); }
 #main_faq_screen_block_list { padding-top: 36px; border-top: 1px solid rgba(255,255,255,0.3); }
-.main_faq_screen_block_list_item_q { color: #a1cfec; transition: 0.5s; font-size: 24px; line-height: 36px; cursor: pointer; background: url('images/arr_right_or.png') left top 6px no-repeat; background-size: 17px 27px; padding-left: 36px; }
-.main_faq_screen_block_list_item_a { display: none; padding-left: 36px; margin-top: 9px; font-size: 18px; line-height: 24px; padding-bottom: 18px; }
+.main_faq_screen_block_list_item_q { color: #a1cfec; transition: 0.5s; font-size: 24px; line-height: 36px; cursor: pointer; background: url('images/arr-svg.svg') right 20px top 6px no-repeat; background-size: 18px 30px; }
+.main_faq_screen_block_list_item_a { display: none; margin-top: 9px; font-size: 18px; line-height: 24px; padding-bottom: 18px; }
 .main_faq_screen_block_list_item_q:hover { color: #fff; }
 
-.main_faq_screen_block_list_item_sel .main_faq_screen_block_list_item_q { background: url('images/arr_down_or.png') left top 11px no-repeat; background-size: 27px 17px;  }
+.main_faq_screen_block_list_item_sel .main_faq_screen_block_list_item_q { background: url('images/arr-svg-down.svg') right 20px top 11px no-repeat; background-size: 33px 20px;  }
 .main_faq_screen_block_list_item_sel .main_faq_screen_block_list_item_a { display: block; }
 
 .main_faq_screen_block_list_item_sel .main_faq_screen_block_list_item_q:hover { color: #a1cfec; }
@@ -1239,7 +1239,7 @@ a.main_first_screen_ini_block_soc_item, .main_first_screen_ini_block_soc_item { 
 .screen_footer_block_col2_item, a.screen_footer_block_col2_item { display: block; line-height: 24px; font-size: 16px; color:#fff; margin-top: 1px; }
 a.screen_footer_block_col2_item { color: rgba(255,255,255,0.7); }
 
-#screen_footer_block_col3 { width: 25%; margin-left: 0; float: left; }
+#screen_footer_block_col3 { width: 22%; margin-left: 0; float: left; }
 #screen_footer_block_social { margin-top: 160px; margin-bottom: 106px; }
 #screen_footer_block_social_txt { float: left; }
 #screen_footer_block_social_tg { display: block; overflow: hidden; width: 24px; margin-left: 18px; float: left; height: 18px; background: url(images/tg_ico.png) top center no-repeat; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }

@@ -1,7 +1,7 @@
 @media only screen and (min-width:1399px) and (max-width:1759px) {
 
 
-  .screen_block_wcont { width: 1400px; margin-left: calc(50% - 700px); }
+  .screen_block_wcont { width: 1400px; margin-left: calc(50% - 700px); padding-left: 30px; }
 
 
   /***** MAIN NUMBERS ****/

@@ -5,13 +5,13 @@
   body { min-width:768px; overflow-x: hidden; }
   
 
-  .screen_block_wcont { width: 700px; margin-left: calc(50% - 350px); }
+  .screen_block_wcont { width: calc(100% - 40px); margin-left: 20px; }
 
 
   /***** MENU ****/
 
   #main_menu_block_cont { width: 700px; height: 458px; top: calc(50% - 230px); left: calc(50% - 350px); background: url('images/main_menu_cont_bg.png') left top no-repeat; background-size: 700px 458px; }
-  #main_menu_block_cont .screen_block_wcont { width: 700px; margin-left: calc(50% - 350px); }
+  #main_menu_block_cont .screen_block_wcont { width: calc(100% - 40px); margin-left: 20px; }
   #main_menu_block_cont_col1 { width: 250px; }
   #main_menu_block_cont_col2 { width: 220px; }
   #main_menu_block_cont_logo { margin-top: 48px; margin-bottom: 40px; }
@@ -199,13 +199,13 @@
 
 
   /***** MAIN reviews ****/
-
+  #main_reviews_screen_block_controls { top: 126px; }
   #main_reviews_screen_block h2 { width: 700px; margin-top: 40px; line-height: 56px; margin-left: 0; }
   #main_reviews_screen_block_list_img_container { width: 200px; height: 240px; margin-left: 0; margin-right: 18px; }
   #main_reviews_screen_block_list_img_container_cont { width: 172px; text-align: center; position: relative; }
   .main_reviews_screen_block_list_img_container_cont_item { width: auto; max-width: 100%; margin-right: 0; height: auto; max-height: 100%; }
 
-  #main_reviews_screen_block_list_txt_container { width: 100%; }
+  #main_reviews_screen_block_list_txt_container { width: 66vw; }
   #main_reviews_screen_block_list_txt_container_cont { width: 100%; }
   .main_reviews_screen_block_list_txt_container_cont_item { width: 100%; }
 
@@ -216,7 +216,7 @@
   /***** FAQ ****/
 
   #main_faq_screen_block h2 { width: 670px; margin-left: 36px; }
-  #main_faq_screen_block_list { width: 670px; margin-left: 72px; }
+  #main_faq_screen_block_list { width: calc(100% - 140px); margin-left: 72px; }
 
   
 
@@ -254,7 +254,7 @@
 
   /***** FOOTER ****/
 
-  #screen_footer_block .screen_block_wcont { width: 700px; margin-left: calc(50% - 350px); }
+  #screen_footer_block .screen_block_wcont { width: calc(100% - 40px); margin-left: 0; }
 
   #screen_footer_block_col1 { width: 40%; margin-left: 36px; }
   #screen_footer_block_col2 { width: 45%; margin-left: 36px; }
