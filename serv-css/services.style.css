@@ -485,7 +485,7 @@ h1.title {
     align-items: center;
     justify-content: center;
     position: relative;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .road-absolute {
@@ -565,7 +565,7 @@ h1.title {
     font-size: 20px;
     line-height: 28px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(50px);
 }
 
 .services-single-road .chain {
